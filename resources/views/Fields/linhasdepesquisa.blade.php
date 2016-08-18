@@ -415,7 +415,7 @@
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="20521" data-type="teaser">
                             <div class="image">
-                                <a href="#" title="TNS - Transcutaneous electrical nerve stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
+                                <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
                             </div>
                             <h3 class="headline"><a href="#" title="TNS - Transcutaneous electrical nerve stimulation">TNS - Transcutaneous electrical nerve stimulation</a></h3>
                             <div class="summary">
@@ -426,7 +426,7 @@
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21543" data-type="teaser">
                             <div class="image">
-                                <a href="#" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
+                                <a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
                             </div>
                             <h3 class="headline"><a href="#" title="rTMS - Transcranial magnetic stimulation">rTMS - Transcranial magnetic stimulation</a></h3>
                             <div class="summary">
