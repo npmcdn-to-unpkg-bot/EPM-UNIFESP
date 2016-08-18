@@ -65,7 +65,6 @@
             background-color: #2C2C33 !important;
         }
     </style>
-
     <script>
         {{--<script async="" src="../www.google-analytics.com/analytics.js"></script>--}}
         window.programExplorerUrl = "academics/index.html";
@@ -91,15 +90,44 @@
 
         }
     </script>
-
     <script src="{{asset('/js/modernizr-acd544d837.js')}}"></script>
     <script src="{{asset('/js/head-c1049261eb.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
 
 </head>
 
 <body class="home page page-id-12375 page-template-default  show-nav-fries unscrolled">
 @yield('content')
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript">
+    $('.atividades').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
 
 </body>
 </html>

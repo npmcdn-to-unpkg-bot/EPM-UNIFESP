@@ -91,14 +91,7 @@
                                 <div class="more"><a href="#">More events</a></div>
                             </div>
                         </div>
-                        <div class="social-links">
-                            <a class="twitter fa-stack" href="http://www.twitter.com/JohnsHopkins" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
-                            <a class="facebook fa-stack" href="http://www.facebook.com/johnshopkinsuniversity" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
-                            <a class="linkedin fa-stack" href="https://www.linkedin.com/edu/the-johns-hopkins-university-18560" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
-                            <a class="youtube fa-stack" href="http://www.youtube.com/johnshopkins" title="YouTube"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-youtube-square" aria-hidden="true"></i> <span class="icon-fallback">YouTube</span> </a>
-                            <a class="instagram fa-stack" href="http://instagram.com/johnshopkinsu" title="Instagram"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-instagram" aria-hidden="true"></i> <span class="icon-fallback">Instagram</span> </a>
-                            <a class="hub fa-stack" href="http://hub.jhu.edu/" title="Hub"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-gear" aria-hidden="true"></i> <span class="icon-fallback">Hub</span> </a>
-                        </div>
+
                     </div>
                 </div>
                 <!-- <div class="french-fries"> -->
@@ -259,8 +252,8 @@
                     <div class="center">
                         <div class="content force">
                             <div class="section-intro block" data-block-id="19563">
-                                <h2 class="head">Aqui irei inserir o "Sobre Nós", junto com os 4 diretores.</h2>
-                                <p class="subhead">Etiam vitae lacus accumsan, maximus ante id, convallis elit. Integer laoreet ornare nisl id faucibus. Integer viverra molestie eros a mollis. Proin ut tempus sapien. Praesent metus dui, viverra a dui quis, convallis ullamcorper nisl.</p>
+                                <h2 class="head">Sobre Nós</h2>
+                                <p class="subhead">O Centro de Neuromodulação da EPM-UNIFESP é uma iniciativa científico-tecnológica voltada ao desenvolvimento de métodos e estudos em psiquiatria e áreas afins.</p>
                             </div>
                             <div class="facts force">
                                 <div class="fact-1 fact column">
@@ -274,7 +267,7 @@
                                     <div class="graphic"><img src="{{asset('/images/Pessoas/diretores/Quirino_Cordeiro.png')}}" alt="Prof. Dr. Quirino Cordeiro"></div>
                                     <div class="kicker">Diretor Científico</div>
                                     <div class="fact-description">
-                                        <p>Prof. Dr. EPM-UNIFESP<br> Quirino Cordeiro</p>
+                                        <p>Prof. Dr. EPM-UNIFESP/Santa Casa<br> Quirino Cordeiro</p>
                                     </div>
                                 </div>
                                 <div class="fact-3 fact column">
@@ -286,7 +279,7 @@
                                 </div>
                                 <div class="fact-4 last fact column">
                                     <div class="graphic"><img src="{{asset('/images/Pessoas/diretores/Rodrigo_Bressan.png')}}" alt="Prof. Dr. Rodrigo Bressan"></div>
-                                    <div class="kicker">Diretor Relações Internacionais</div>
+                                    <div class="kicker">Diretor de Relações Internacionais</div>
                                     <div class="fact-description">
                                         <p>Prof. Dr. Livre-Docente EPM-UNIFESP<br> Rodrigo Affonseca Bressan</p>
                                     </div>
@@ -302,8 +295,8 @@
                     <div class="center">
                         <div class="content force">
                             <div class="section-intro block" data-block-id="19403">
-                                <h2 class="head">Aqui irei colocar as Bolinhas com as áreas.</h2>
-                                <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna enim, dictum at nulla ut, ultricies tempus felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla tempus sapien et nisi sollicitudin, eu placerat mauris dapibus. Maecenas scelerisque dignissim augue sit amet viverra. Donec bibendum dictum consectetur. </p>
+                                <h2 class="head">Linhas de Pesquisa</h2>
+                                <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico biológico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
                             </div>
                             <div class="divisions-container column force">
                                 <div class="division-set force">
@@ -321,16 +314,16 @@
                                         <line style="stroke-dasharray: none; stroke-dashoffset: 0px;" stroke-width="2" stroke="white" y2="78%" x2="76%" y1="50%" x1="50%"></line>
                                     </svg>
                                     <div style="top: 50%; left: 50%;" class="jhu division bubble column shrink"> <span class="text">Centro de Neuromodulação</span> </div>
-                                    <button style="top: 80%; left: 56%; cursor: pointer;" class="division bubble button column bubble-1 applied-physics-laboratory "><span class="text">GENÉTICA</span> </button>
-                                    <button style="top: 13%; left: 30%; cursor: pointer;" class="division bubble button column bubble-2 school-of-public-health "><span class="text">NEUROFEEDBACK</span> </button>
-                                    <button style="top: 17%; left: 6%;" class="division bubble button column bubble-3 carey-business-school "><span class="text">TMS</span> </button>
-                                    <button style="top: 22%; left: 50%; cursor: pointer;" class="division bubble button column bubble-4 school-of-arts-and-sciences "><span class="text">REMEDIAÇÃO COGNITIVA</span> </button>
-                                    <button style="top: 90%; left: 20%;" class="division bubble button column bubble-5 peabody-institute "><span class="text">FMRI</span> </button>
-                                    <button style="top: 90%; left: 40%; cursor: pointer;" class="division bubble button column bubble-6 sais "><span class="text">QEEG</span> </button>
-                                    <button style="top: 30%; left: 80%; cursor: pointer;" class="division bubble button column bubble-7 school-of-education "><span class="text">TNS</span> </button>
-                                    <button style="top: 11%; left: 70%; cursor: pointer;" class="division bubble button column bubble-8 school-of-medicine "><span class="text"> TDCS </span> </button>
-                                    <button style="top: 66%; left: 30%; cursor: pointer;" class="division bubble button column bubble-9 school-of-nursing "><span class="text">EYE TRACKING</span> </button>
-                                    <button style="top: 78%; left: 76%;" class="division bubble button column bubble-10 school-of-engineering "><span class="text"> ELETROFISIOLOGIA PERIFÉRICA</span> </button>
+                                    <a href="{{url("/linhasdepesquisa/Genetica")}}" ><button style="top: 80%; left: 56%; cursor: pointer;" class="division bubble button column bubble-1 applied-physics-laboratory "><span class="text">GENÉTICA</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/Neurofeedback")}}" ><button style="top: 13%; left: 30%; cursor: pointer;" class="division bubble button column bubble-2 school-of-public-health "><span class="text">NEUROFEEDBACK</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/rTMS")}}" ><button style="top: 17%; left: 6%;" class="division bubble button column bubble-3 carey-business-school "><span class="text">TMS</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/RemediacaoCognitiva")}}" ><button style="top: 22%; left: 50%; cursor: pointer;" class="division bubble button column bubble-4 school-of-arts-and-sciences "><span class="text">REMEDIAÇÃO COGNITIVA</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/FMRI")}}" ><button style="top: 90%; left: 20%;" class="division bubble button column bubble-5 peabody-institute "><span class="text">FMRI</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/QEEG")}}" ><button style="top: 90%; left: 40%; cursor: pointer;" class="division bubble button column bubble-6 sais "><span class="text">QEEG</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/TNS")}}" ><button style="top: 30%; left: 80%; cursor: pointer;" class="division bubble button column bubble-7 school-of-education "><span class="text">TNS</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/TDCS")}}" > <button style="top: 11%; left: 70%; cursor: pointer;" class="division bubble button column bubble-8 school-of-medicine "><span class="text"> TDCS </span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/EyeTracking")}}" ><button style="top: 66%; left: 30%; cursor: pointer;" class="division bubble button column bubble-9 school-of-nursing "><span class="text">EYE TRACKING</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/Eletrofisiologia")}}" ><button style="top: 78%; left: 76%;" class="division bubble button column bubble-10 school-of-engineering "><span class="text"> ELETROFISIOLOGIA PERIFÉRICA</span> </button></a>
                                 </div>
                             </div>
                         </div>
@@ -348,6 +341,14 @@
                             <div class="maps-container force">
                                 <div class="loading dark"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="fullwidth">
+                        <div class="content">
+                            {{--<div class="research-container force " style="height: 813px;">--}}
+                                {{--<div class="atividades" style="background-color: red;width: 30px; height: 30px"></div>--}}
+                                {{--<div class="atividades" style="background-color: blue;width: 30px; height: 30px"></div>--}}
+                            {{--</div>--}}
                         </div>
                     </div>
                 </div>
