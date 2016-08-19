@@ -6,8 +6,7 @@
         <div class="primary-column column force">
             <div id="main-content" class="primary-content column force" role="main">
                 <div class="block" data-block-id="13470">
-                    <p>Johns Hopkins enrolls more than 21,000 full- and part-time students throughout nine academic divisions. Our faculty and students study, teach, and learn across more than 240 programs in the arts and music, the humanities, the social and natural sciences, engineering, international studies, education, business, and the health professions.</p>
-                    <p>Use our <strong>interactive program explorer</strong> to see what we offer. Sort by division and/or degree type, or use the keyword search to get started.</p>
+                    <p>Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação. Conheça as nosas produções.</p>
                 </div>
                 <div id="bbFieldGrid" class="force">
                     <p class="no-js"><strong>To interact with the academic explorer, please <a href="http://www.activatejavascript.org/">enable JavaScript</a> in your browser.</strong></p>

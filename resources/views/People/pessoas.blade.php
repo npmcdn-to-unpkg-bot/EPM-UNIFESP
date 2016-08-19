@@ -224,8 +224,6 @@
             <ul class="tablist french-fries" role="tablist" aria-describedby="aria-description-tablist">
                 <p id="aria-description-tablist" class="hide">Pressione esc para fechar a caixa de diálogo, quando aberta.</p>
                 <li class="tab" role="presentation"> <a href="#menu" id="tab-menu" aria-controls="tabpanel-menu" role="tab"><i class="fa fa-fw fa-bars" aria-hidden="true"></i>Menu</a> </li>
-                <li class="tab" role="presentation"> <a href="#search" id="tab-search" aria-controls="tabpanel-search" role="tab"><i class="fa fa-fw fa-search" aria-hidden="true"></i>Pesquisar</a> </li>
-                <li class="tab" role="presentation"> <a href="#" id="tab-news-events" aria-controls="tabpanel-news-events" role="tab"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Publicações</a> </li>
             </ul>
             <div class="tabpanel-set force">
                 <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
@@ -292,24 +290,6 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
-                <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
-                    <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
-                    <div class="newsevents-container">
-                        <div class="collection content-loading">
-                            <h4><a href="#">Ultimo Artigo</a></h4>
-                            <div class="load-into"></div>
-                            <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                            <div class="more"><a href="#">Mais Artigos...</a></div>
-                        </div>
-                        <div class="collection content-loading">
-                            <h4><a href="#">Ultimo Artigo</a></h4>
-                            <div class="load-into"></div>
-                            <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                            <div class="more"><a href="#">Mais Artigos...</a></div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>

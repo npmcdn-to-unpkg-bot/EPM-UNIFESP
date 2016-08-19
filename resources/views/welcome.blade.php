@@ -12,8 +12,6 @@
                 <ul class="tablist french-fries" role="tablist" aria-describedby="aria-description-tablist">
                     <p id="aria-description-tablist" class="hide">Pressione esc para fechar a caixa de diálogo, quando aberta.</p>
                     <li class="tab" role="presentation"> <a href="#menu" id="tab-menu" aria-controls="tabpanel-menu" role="tab"><i class="fa fa-fw fa-bars" aria-hidden="true"></i>Menu</a> </li>
-                    <li class="tab" role="presentation"> <a href="#search" id="tab-search" aria-controls="tabpanel-search" role="tab"><i class="fa fa-fw fa-search" aria-hidden="true"></i>Pesquisar</a> </li>
-                    <li class="tab" role="presentation"> <a href="#" id="tab-news-events" aria-controls="tabpanel-news-events" role="tab"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Publicações</a> </li>
                 </ul>
                 <div class="tabpanel-set force">
                     <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
@@ -81,24 +79,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
-                        <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
-                        <div class="newsevents-container">
-                            <div class="collection content-loading">
-                                <h4><a href="#">Ultimo Artigo</a></h4>
-                                <div class="load-into"></div>
-                                <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                                <div class="more"><a href="#">Mais Artigos...</a></div>
-                            </div>
-                            <div class="collection content-loading">
-                                <h4><a href="#">Ultimo Artigo</a></h4>
-                                <div class="load-into"></div>
-                                <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                                <div class="more"><a href="#">Mais Artigos...</a></div>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div id="bbHeroSection" class="hero default section" role="banner" data-backup="//www.jhu.edu/assets/uploads/2014/08/18-800x400.jpg" data-mp4="#" data-webm="#" data-poster="//www.jhu.edu/assets/uploads/2016/05/Segment-18.jpg" data-autoplay="autoplay" data-preload="auto" data-muted="muted" data-loop="3" style="height: 650px;">
+        <div id="bbHeroSection" class="hero default section" role="banner" data-mp4="#" data-webm="#" style="height: 650px;">
             <div class="sticky">
                 <div class="fullwidth fullheight" style="margin-left: 0px; margin-top: 0px; width: 1799px; height: 889px;">
                     <div class="content">
@@ -282,7 +262,7 @@
                         <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
                             <div class="section-intro block" data-block-id="19403">
                                 <h2 class="head">Linhas de Pesquisa</h2>
-                                <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico biológico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
+                                <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação. Conheça as diferentes técnicas com as quais trabalhamos.</p>
                             </div>
                             <div class="divisions-container column force">
                                 <div class="division-set force">
