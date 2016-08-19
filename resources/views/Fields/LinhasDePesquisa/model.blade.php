@@ -316,10 +316,9 @@
 <div class="page-container">
     <div class="identity-stripe" role="banner">
         <div class="center force">
-            <a class="logo-tab column" href="{{url('/')}}" title="Home"><img src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação"></a>
+            <a class="logo-tab column" href="{{url('/')}}" title="Home"><img src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação" style="margin-bottom: 10px;"></a>
         </div>
     </div>
-    <!-- end IDENTITY-STRIPE section -->
     <!-- begin TITLE section -->
     <div class="page-title-section" style="background-color: #E8927C;">
         <div class="page-title-background" style="background-image:url('{{asset('/images/stockphotos/startup-photos_pesquisa.jpg')}}')"></div>
