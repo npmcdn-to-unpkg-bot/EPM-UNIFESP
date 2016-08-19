@@ -316,21 +316,6 @@
                     </div>
                 </div>
             </div>
-            <div id="bbMapsSection" class="maps big-section section" role="region" aria-label="Atividades" data-image="22160">
-                <div class="sticky">
-                    <div class="center">
-                        <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
-                            <div class="section-intro block" data-block-id="19551">
-                                <h2 class="head">Inserir aqui algumas Atividades.</h2>
-                                <p class="subhead">Etiam quis eleifend ligula, vitae maximus lorem. Donec ut ligula non dui accumsan egestas eu et eros. Curabitur ornare sit amet lectus sed suscipit. Curabitur at odio sed nisi fermentum eleifend. Proin nec egestas lacus. In lacus nibh, suscipit eu enim id, dapibus malesuada nunc. Nulla ac aliquet massa.</p>
-                            </div>
-                            <div class="maps-container force">
-                                <div class="loading dark"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <!--googleoff: all-->
         <div class="page-footer section" role="contentinfo">
