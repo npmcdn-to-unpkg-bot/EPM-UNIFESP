@@ -47,30 +47,42 @@
                         <ul class="site-tree tier-1">
                             <li class="parent-level"> <a href="#" class="toggle-section" title="Collapse About Us section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Fechar o menu Sobre Nós</span></a> <a href="{{url('/sobrenos')}}" title="About Us" class="destination">Sobre Nós</a>
                                 <ul class="tier-2">
-                                    <li class=""> <a href="#" title="University Leadership" class="destination">Paragrafo 1</a> </li>
-                                    <li class=""> <a href="#" title="Notable Alumni" class="destination">Paragrafo 2</a> </li>
-                                    <li class=""> <a href="#" title="Hopkins in the Community" class="destination">Paragrafo 3</a> </li>
+                                    <li class=""> <a href="{{url('/sobrenos/missao')}}" title="University Leadership" class="destination">Missão</a></li>
+                                    <li class=""> <a href="{{url('/sobrenos/visao')}}" title="Notable Alumni" class="destination">Visão</a></li>
+                                    <li class=""> <a href="{{url('/sobrenos/estrategia')}}" title="Hopkins in the Community" class="destination">Estratégia</a></li>
                                 </ul>
                             </li>
                             <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Academics section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expandir o menu Linhas de pesquisa</span></a> <a href="{{url('/linhasdepesquisa')}}" title="Linhas de pesquisa" class="destination">Linhas de pesquisa</a>
                                 <ul class="tier-2">
-                                    <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Linha de Pesquisa 1" class="destination">Linha de Pesquisa 1</a> </li>
-                                    <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Linha de Pesquisa 2" class="destination">Linha de Pesquisa 2</a> </li>
-                                    <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Linha de Pesquisa 3" class="destination">Linha de Pesquisa 3</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                                 </ul>
                             </li>
                             <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Schools &amp; Divisions section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Schools &amp; Divisions section</span></a> <a href="{{url('/pessoas')}}" title="Pessoas" class="destination">Pessoas</a>
                                 <ul class="tier-2">
-                                    <li class=""> <a href="{{url('/pessoas')}}" title="Pessoa 1" class="destination">Pessoa 1</a> </li>
-                                    <li class=""> <a href="{{url('/pessoas')}}" title="Pessoa 2" class="destination">Pessoa 2</a> </li>
-                                    <li class=""> <a href="{{url('/pessoas')}}" title="Pessoa 3" class="destination">Pessoa 3</a> </li>
+                                    <li class=""><a href="{{url('/pessoas')}}" title="Pessoa 1" class="destination">Pesquisadores</a></li>
                                 </ul>
                             </li>
                             <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Admissions &amp; Aid section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Admissions &amp; Aid section</span></a> <a href="{{url('/producoes')}}" title="Produções" class="destination">Produções</a>
                                 <ul class="tier-2">
-                                    <li class=""> <a href="{{url('/producoes')}}" title="Produções 1" class="destination">Produções 1</a> </li>
-                                    <li class=""> <a href="{{url('/producoes')}}" title="Producoes 2" class="destination">Produções 2</a> </li>
-                                    <li class=""> <a href="{{url('/producoes')}}" title="Producoes 2" class="destination">Produções 3</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
+                                    <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                                 </ul>
                             </li>
                         </ul>
@@ -79,16 +91,16 @@
                         <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
                         <div class="newsevents-container">
                             <div class="collection content-loading">
-                                <h4><a href="#">Recent News</a></h4>
+                                <h4><a href="#">Ultimo Artigo</a></h4>
                                 <div class="load-into"></div>
                                 <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                                <div class="more"><a href="#">More news</a></div>
+                                <div class="more"><a href="#">Mais Artigos...</a></div>
                             </div>
                             <div class="collection content-loading">
-                                <h4><a href="#">Upcoming Events</a></h4>
+                                <h4><a href="#">Ultimo Artigo</a></h4>
                                 <div class="load-into"></div>
                                 <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                                <div class="more"><a href="#">More events</a></div>
+                                <div class="more"><a href="#">Mais Artigos...</a></div>
                             </div>
                         </div>
 
@@ -96,9 +108,9 @@
                 </div>
                 <!-- <div class="french-fries"> -->
                 <ul class="actions french-fries tier-1">
-                    <li class="parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Menu 1</a> </li>
-                    <li class="parent-level"> <a href="admissions/visit/index.html" title="Visit" class="destination">Menu 2</a> </li>
-                    <li class="parent-level"> <a href="academics/index.html" title="See programs" class="destination">Menu 3</a> </li>
+                    <li class="parent-level"> <a href="#" title="Apply" class="destination">Contato</a> </li>
+                    <li class="parent-level"> <a href="#" title="Visit" class="destination">Ensaios</a> </li>
+                    <li class="parent-level"> <a href="#" title="See programs" class="destination">Artigos</a> </li>
                 </ul>
                 <!-- </div> -->
                 <!-- </div> -->
@@ -119,8 +131,8 @@
             <div class="sticky">
                 <div class="fullwidth fullheight" style="margin-left: 0px; margin-top: 0px; width: 1799px; height: 889px;">
                     <div class="content">
-                        <div class="while-loading" style="margin-left: 0px; margin-top: -60.8371px; width: 1799px; height: 1010.67px; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 100%;width: 100%;margin-top: 1.5em;">
+                        <div class="while-loading" style="margin-left: 0px; margin-top: -60.8371px; width: 1799px; height: 120%; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 90%; width: 100%;margin-top: 1.5em;">
                                 <g id="experiment">
                                     <g id="tubeLiquid">
                                         <polyline fill="none" stroke="#FF7840" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 458.7,399 533.6,399.2 545,367 560.3,423 578.3,356.3 616.3,436.3 615.7,354.7 663.7,402 663.3,312.3 "></polyline>
