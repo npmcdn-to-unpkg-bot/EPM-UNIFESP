@@ -23,7 +23,7 @@
         <h2 class="head">rTMS - Transcranial magnetic stimulation</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/TNS_small.png')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/TNS_small.png')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
             </div>
         </div>
         <p>

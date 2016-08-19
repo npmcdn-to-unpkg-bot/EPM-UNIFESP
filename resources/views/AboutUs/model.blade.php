@@ -246,9 +246,9 @@
                 </div>
                 <div class="panel-actions tabpanel column">
                     <ul class="actions tier-1">
-                        <li class="parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Menu 1</a> </li>
-                        <li class="parent-level"> <a href="admissions/visit/index.html" title="Visit" class="destination">Menu 2</a> </li>
-                        <li class="parent-level"> <a href="academics/index.html" title="See programs" class="destination">Menu 3</a> </li>
+                        <li class="parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Contatos</a> </li>
+                        <li class="parent-level"> <a href="admissions/visit/index.html" title="Visit" class="destination">Ensaios</a> </li>
+                        <li class="parent-level"> <a href="academics/index.html" title="See programs" class="destination">Artigos</a> </li>
                     </ul>
                 </div>
                 <div id="tabpanel-menu" class="panel-menu tabpanel column" aria-labelledby="tab-menu" aria-hidden="true" role="tabpanel">
@@ -298,7 +298,7 @@
                 </div>
                 <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
-                    <div class="newsevents-container">
+                    <div class="paper-container">
                         <div class="collection content-loading">
                             <h4><a href="#">Ultimo Artigo</a></h4>
                             <div class="load-into"></div>
@@ -426,12 +426,9 @@
                         <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
                         <li>
                             <div class="social-links">
-                                <a class="twitter fa-stack" href="#" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
-                                <a class="facebook fa-stack" href="#" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
-                                <a class="linkedin fa-stack" href="#" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
                                 <a class="youtube fa-stack" href="#" title="YouTube"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-youtube-square" aria-hidden="true"></i> <span class="icon-fallback">YouTube</span> </a>
                                 <a class="instagram fa-stack" href="#" title="Instagram"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-instagram" aria-hidden="true"></i> <span class="icon-fallback">Instagram</span> </a>
-                                <a class="hub fa-stack" href="#" title="Hub"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-gear" aria-hidden="true"></i> <span class="icon-fallback">Hub</span> </a>
+                                <i class="fa fa-stack-1x fa-gear" aria-hidden="true"></i> <span class="icon-fallback">Hub</span> </a>
                             </div>
                         </li>
                     </ul>
@@ -444,7 +441,9 @@
                             <input type="hidden" name="c" value="gsa" />
                             <label for="search-gsa-711">Search</label>
                             <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
-                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
+                            <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
+                            <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
+                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">Enviar</span></button>
                         </form>
                     </div>
                     <a id="menu"></a>

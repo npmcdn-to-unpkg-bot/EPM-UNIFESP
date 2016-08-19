@@ -23,7 +23,7 @@
         <h2 class="head">Neurofeedback</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" alt="Neurofeedback"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/Neurofeedback_small.gif')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback_small.gif')}}" alt="Neurofeedback"></a>
             </div>
         </div>
         <p>

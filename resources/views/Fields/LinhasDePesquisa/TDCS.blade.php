@@ -23,7 +23,7 @@
         <h2 class="head">TDCS - Transcranial direct current stimulation</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/TDCS_small.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/TDCS_small.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
             </div>
         </div>
         <p>

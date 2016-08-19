@@ -417,7 +417,10 @@
         <div class="center">
             <div class="content force">
                 <div class="identification column force">
-                    <a class="footer-logo column" href={{url('/')}}"> <img class="horizontal-logo center" src="theme/images/logos/university-logo-small-horizontal-white-no-clear-space-e44019a003.png" alt="Centro de Neuromodulação" /> <img class="vertical-logo center" src="theme/images/logos/university-logo-small-vertical-white-no-clear-space-29e2bdee83.png" alt="Centro de Neuromodulação" /> </a>
+                    <a class="footer-logo column" href="http://homestead.app" style="margin-right: 0px;">
+                        <img class="horizontal-logo center" src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação" >
+                        <img class="vertical-logo center" src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação">
+                    </a>
                     <ul class="contact column">
                         <li class="university-name">Centro de Neuromodulação</li>
                         <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>

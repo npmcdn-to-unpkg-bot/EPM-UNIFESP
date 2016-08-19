@@ -23,7 +23,7 @@
         <h2 class="head">QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/QEEG.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/QEEG.jpg')}}" alt="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/QEEG_small.gif')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/QEEG_small.gif')}}" alt="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"></a>
             </div>
         </div>
         <p>

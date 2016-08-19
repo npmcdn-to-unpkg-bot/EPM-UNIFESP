@@ -23,7 +23,7 @@
         <h2 class="head">Remediacão Cognitiva</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" alt="Remediação Cognitiva"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva_small.png')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva_small.png')}}" alt="Remediação Cognitiva"></a>
             </div>
         </div>
         <p>

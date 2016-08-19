@@ -23,7 +23,7 @@
         <h2 class="head">fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
-                <a href="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" alt="fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING"></a>
+                <a href="{{asset('/images/Linha_de_pesquisa/FMRI_small.png')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/FMRI_small.png')}}" alt="fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING"></a>
             </div>
         </div>
         <p>

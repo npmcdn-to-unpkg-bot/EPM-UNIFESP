@@ -131,7 +131,7 @@
             <div class="sticky">
                 <div class="fullwidth fullheight" style="margin-left: 0px; margin-top: 0px; width: 1799px; height: 889px;">
                     <div class="content">
-                        <div class="while-loading" style="margin-left: 0px; margin-top: -60.8371px; width: 1799px; height: 120%; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
+                        <div class="animação" style="margin-left: 0px; margin-top: -60.8371px; width: 100%; height: 120%; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 90%; width: 100%;margin-top: 1.5em;">
                                 <g id="experiment">
                                     <g id="tubeLiquid">
@@ -373,9 +373,9 @@
                                 <div class="search-box force">
                                     <form method="GET" action="#" class="column force">
                                         <input type="hidden" name="c" value="program_explorer">
-                                        <label for="search-program_explorer-293">Pesquisar</label>
+                                        <label for="search-program_explorer-293">Contato</label>
                                         <input id="search-program_explorer-293" class="column" type="text" name="q" value="" autocomplete="off">
-                                        <button type="submit" class="column"><i class="fa fa-compass"></i><span class="text">Pesquisar</span></button>
+                                        <button type="submit" class="column"><i class="fa fa-compass"></i><span class="text">Contato</span></button>
                                     </form>
                                 </div>
                             </div>

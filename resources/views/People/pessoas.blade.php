@@ -416,7 +416,7 @@
                 <!--googleon: all-->
                 <div id="main-content" class="primary-content column force" role="main">
                     <div class="block" data-block-id="13476">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis scelerisque odio, a bibendum enim fermentum non. Phasellus mollis mollis velit, eget tristique nisl volutpat id. <strong>Aliquam erat volutpat. Suspendisse urna libero</strong>, facilisis a ultrices facilisis, consectetur hendrerit sem. Cras pharetra suscipit lacinia. </p>
+                        <p>O Centro conta com diversos pesquisadores, além de uma equipe altamente qualificada que cuida de conteúdo e TI.</p>
                         @foreach ($researchers as $researcher)
                         <div class="researcher">
 

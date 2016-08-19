@@ -433,7 +433,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="#" title="rTMS - Transcranial magnetic stimulation">rTMS - Transcranial magnetic stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation">rTMS - Transcranial magnetic stimulation</a></h3>
                             <div class="summary">
                                 <p>A estimulação magnética transcraniana é uma técnica que envolve a indução de campos magnéticos alternantes, através de uma bobina, para estimular as células nervosas.<br>Ao atingir o cérebro, os pulsos magnéticos são convertidos em corrente elétrica, produzindo efeitos neuroplásticos, que milhares de ensaios clínicos demonstraram promissores no tratamento de diversos transtornos psiquiátricos e doenças neurológicas.</p>
                             </div>
@@ -444,7 +444,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS - Transcranial direct current stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="#" title="TDCS - Transcranial direct current stimulation">TDCS - Transcranial direct current stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS - Transcranial direct current stimulation">TDCS - Transcranial direct current stimulation</a></h3>
                             <div class="summary">
                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.</p>
                             </div>
