@@ -424,13 +424,6 @@
                         <li class="university-name">Centro de Neuromodulação</li>
                         <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>
                         <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
-                        <li>
-                            <div class="social-links">
-                                <a class="youtube fa-stack" href="#" title="YouTube"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-youtube-square" aria-hidden="true"></i> <span class="icon-fallback">YouTube</span> </a>
-                                <a class="instagram fa-stack" href="#" title="Instagram"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-instagram" aria-hidden="true"></i> <span class="icon-fallback">Instagram</span> </a>
-                                <i class="fa fa-stack-1x fa-gear" aria-hidden="true"></i> <span class="icon-fallback">Hub</span> </a>
-                            </div>
-                        </li>
                     </ul>
                 </div>
                 <div class="nav column force">
@@ -440,8 +433,6 @@
                         <form method="GET" action="https://www.decisionhub.com.br/search" class="column force" role="search">
                             <input type="hidden" name="c" value="gsa" />
                             <label for="search-gsa-711">Search</label>
-                            <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
-                            <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
                             <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
                             <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">Enviar</span></button>
                         </form>

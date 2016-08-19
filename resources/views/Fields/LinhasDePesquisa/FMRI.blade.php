@@ -27,11 +27,7 @@
             </div>
         </div>
         <p>
-            Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.
-            <br><br>A estimulação não gera disparo de potenciais de ação neuronal. Ela atua de maneira suave na despolarização/hiperpolarização dos potenciais de membrana. Por isso, trata-se de uma técnica bastante segura, do ponto de vista neurológico, cujos raros efeitos colaterais resumem-se a leves eritemas cutâneos, em sujeitos mais propensos.
-            <br><br>Em geral, são necessárias ao menos dez sessões, de vinte minutos cada para que os efeitos sejam atingidos e estes persistem para além do período de tratamento.
-            <br><br>Recentemente, nosso time publicou uma pequena letter na versão eletrônica da revista Science propondo um novo mecanismo de ação para a tDCS.
-        </p>
+            A ressonância magnética funcional (fMRI ou RMf) é a principal técnica de imageamento cerebral utilizada no mundo para diagnósticos clínicos e compreensão das dinâmicas cerebrais subjacentes a processos afetivos e cognitivos. A fMRI registra a perfusão sanguínea oxigenada nos diferentes sítios cerebrais ao longo do tempo; posto que a queima de oxigênio é necessária para a realização das computações neurais, o sinal registrado (conhecido como BOLD) serve de medida indireta de ativação na área correlata, contribuindo dramaticamente para a compreensão do papel das diferentes circuitarias existentes, em repouso e nas dinâmicas intencionais. Na atualidade, utilizamos diversos procedimentos que complementam a fMRI, tal como o imageamento por difusor de tensão (DTI), que utiliza o movimento browniano das moléculas de água ao longo dos tecidos, como os feixes axônicos, para gerar traçados capazes de revelar vias e circuitos e o uso concomitante de QEEG, para o registro de mudanças rápidas de processamento.</p>
         <br>
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" alt="fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING"></a>

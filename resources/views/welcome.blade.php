@@ -252,9 +252,9 @@
                 <div class="center">
                     <div class="content force">
                         <ul class="actions column force tier-1">
-                            <li class="column force parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Aplicar</a> </li>
-                            <li class="column force parent-level"> <a href="admissions/visit/index.html" title="Visitar" class="destination">Visitar</a> </li>
-                            <li class="column force parent-level"> <a href="academics/index.html" title="Veja os Programas" class="destination">Veja os programs</a> </li>
+                            <li class="column force parent-level"> <a href="#" title="Contato" class="destination">Contato</a> </li>
+                            <li class="column force parent-level"> <a href="#" title="Ensaios" class="destination">Ensaios</a> </li>
+                            <li class="column force parent-level"> <a href="#" title="Artigos" class="destination">Artigos</a> </li>
                         </ul>
                     </div>
                 </div>

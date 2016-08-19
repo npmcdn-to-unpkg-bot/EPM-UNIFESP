@@ -342,7 +342,7 @@
             <div class="page-title-container">
                 <h1 class="page-title"> <span style="white-space: nowrap;">Linhas</span> <span style="white-space: nowrap;">De</span> <span style="white-space: nowrap;">Pesquisa</span> </h1>
                 <!--googleoff: all-->
-                <h4 class="page-breadcrumb"> <span style="white-space: nowrap;"><a href="{{url('/')}}}" title="Home">Home</a></span> <span aria-hidden="true">&gt;</span> <span style="white-space: nowrap;"><a href="{{url('/linhasdepesquisa')}}" title="Linhas de Pesquisa">Linhas de Pesquisa</a></span> </h4>
+                <h4 class="page-breadcrumb"> <span style="white-space: nowrap;"><a href="{{url('/')}}" title="Home">Home</a></span> <span aria-hidden="true">&gt;</span> <span style="white-space: nowrap;"><a href="{{url('/linhasdepesquisa')}}" title="Linhas de Pesquisa">Linhas de Pesquisa</a></span> </h4>
                 <!--googleon: all-->
             </div>
         </div>
@@ -422,7 +422,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="#" title="TNS - Transcutaneous electrical nerve stimulation">TNS - Transcutaneous electrical nerve stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation">TNS - Transcutaneous electrical nerve stimulation</a></h3>
                             <div class="summary">
                                 <p>A TNS envolve a estimulação elétrica da terminação do ramo V1 do trigêmeo, que fica logo acima do supraorbital. Ao contrário do que ocorre com a tDCS e rTMS que agem de maneira top-down (do córtex para dentro), através da estimulação do trigêmeo, os impulsos navegam até o tronco encefálico e então se espraiam para o tálamo e córtex. </p>
                             </div>
@@ -543,16 +543,6 @@
                         <li class="university-name">Centro de Neuromodulação</li>
                         <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>
                         <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
-                        <li>
-                            <div class="social-links">
-                                <a class="twitter fa-stack" href="#" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
-                                <a class="facebook fa-stack" href="#" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
-                                <a class="linkedin fa-stack" href="#" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
-                                <a class="youtube fa-stack" href="#" title="YouTube"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-youtube-square" aria-hidden="true"></i> <span class="icon-fallback">YouTube</span> </a>
-                                <a class="instagram fa-stack" href="#" title="Instagram"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-instagram" aria-hidden="true"></i> <span class="icon-fallback">Instagram</span> </a>
-                                <a class="hub fa-stack" href="#" title="Hub"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-gear" aria-hidden="true"></i> <span class="icon-fallback">Hub</span> </a>
-                            </div>
-                        </li>
                     </ul>
                 </div>
                 <div class="nav column force">
@@ -563,7 +553,7 @@
                             <input type="hidden" name="c" value="gsa" />
                             <label for="search-gsa-711">Search</label>
                             <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
-                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
+                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">Enviar</span></button>
                         </form>
                     </div>
                     <a id="menu"></a>
