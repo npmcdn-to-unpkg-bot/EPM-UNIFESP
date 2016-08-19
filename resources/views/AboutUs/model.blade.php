@@ -244,13 +244,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="panel-actions tabpanel column">
-                    <ul class="actions tier-1">
-                        <li class="parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Contatos</a> </li>
-                        <li class="parent-level"> <a href="admissions/visit/index.html" title="Visit" class="destination">Ensaios</a> </li>
-                        <li class="parent-level"> <a href="academics/index.html" title="See programs" class="destination">Artigos</a> </li>
-                    </ul>
-                </div>
+
                 <div id="tabpanel-menu" class="panel-menu tabpanel column" aria-labelledby="tab-menu" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                     <ul class="site-tree tier-1">
@@ -298,7 +292,7 @@
                 </div>
                 <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
-                    <div class="paper-container">
+                    <div class="newsevents-container">
                         <div class="collection content-loading">
                             <h4><a href="#">Ultimo Artigo</a></h4>
                             <div class="load-into"></div>
@@ -315,14 +309,6 @@
 
                 </div>
             </div>
-            <!-- <div class="french-fries"> -->
-            <ul class="actions french-fries tier-1">
-                <li class="parent-level"> <a href="#" title="Apply" class="destination">Contato</a> </li>
-                <li class="parent-level"> <a href="#" title="Visit" class="destination">Ensaios</a> </li>
-                <li class="parent-level"> <a href="#" title="See programs" class="destination">Artigos</a> </li>
-            </ul>
-            <!-- </div> -->
-            <!-- </div> -->
         </div>
     </div>
 </div>

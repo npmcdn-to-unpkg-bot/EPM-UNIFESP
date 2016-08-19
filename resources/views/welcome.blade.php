@@ -35,13 +35,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="panel-actions tabpanel column">
-                        <ul class="actions tier-1">
-                            <li class="parent-level"> <a href="admissions/index.html" title="Apply" class="destination">Menu 1</a> </li>
-                            <li class="parent-level"> <a href="admissions/visit/index.html" title="Visit" class="destination">Menu 2</a> </li>
-                            <li class="parent-level"> <a href="academics/index.html" title="See programs" class="destination">Menu 3</a> </li>
-                        </ul>
-                    </div>
+
                     <div id="tabpanel-menu" class="panel-menu tabpanel column" aria-labelledby="tab-menu" aria-hidden="true" role="tabpanel">
                         <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                         <ul class="site-tree tier-1">
@@ -106,14 +100,6 @@
 
                     </div>
                 </div>
-                <!-- <div class="french-fries"> -->
-                <ul class="actions french-fries tier-1">
-                    <li class="parent-level"> <a href="#" title="Apply" class="destination">Contato</a> </li>
-                    <li class="parent-level"> <a href="#" title="Visit" class="destination">Ensaios</a> </li>
-                    <li class="parent-level"> <a href="#" title="See programs" class="destination">Artigos</a> </li>
-                </ul>
-                <!-- </div> -->
-                <!-- </div> -->
             </div>
         </div>
     </div>
@@ -248,17 +234,6 @@
             </div>
         </div>
         <div id="main-content" role="main">
-            <div class="calls-to-action section">
-                <div class="center">
-                    <div class="content force">
-                        <ul class="actions column force tier-1">
-                            <li class="column force parent-level"> <a href="#" title="Contato" class="destination">Contato</a> </li>
-                            <li class="column force parent-level"> <a href="#" title="Ensaios" class="destination">Ensaios</a> </li>
-                            <li class="column force parent-level"> <a href="#" title="Artigos" class="destination">Artigos</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div id="bbTopFactsSection" class="top-facts big-section section" role="region" aria-label="Sobre nós">
                 <div class="sticky">
                     <div class="center">
