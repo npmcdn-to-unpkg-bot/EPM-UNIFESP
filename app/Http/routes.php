@@ -114,7 +114,7 @@ Route::get('/pessoas', function(){
 |--------------------------------------------------------------------------
 */
 Route::get('/producoes', function(){
-    $papers = Paper::orderBy('timestamps', 'asc')->get();
+    $papers = Paper::orderBy('name', 'asc')->get();
     return view('Productions.producoes', [
         'papers' => $papers
     ]);
