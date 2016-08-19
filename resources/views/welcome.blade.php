@@ -331,26 +331,6 @@
                     </div>
                 </div>
             </div>
-            <div id="bbProgramExplorer" class="program-explorer section" role="region" aria-label="Procurar Produções">
-                <div class="center">
-                    <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
-                        <div class="programs-container force">
-                            <div class="row column">
-                                <div class="search-box force">
-                                    <form method="GET" action="#" class="column force">
-                                        <input type="hidden" name="c" value="program_explorer">
-                                        <label for="search-program_explorer-293">Contato</label>
-                                        <input id="search-program_explorer-293" class="column" type="text" name="q" value="" autocomplete="off">
-                                        <button type="submit" class="column"><i class="fa fa-compass"></i><span class="text">Contato</span></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="row filters column"></div>
-                            <div class="row divisions column"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <!--googleoff: all-->
         <div class="page-footer section" role="contentinfo">
