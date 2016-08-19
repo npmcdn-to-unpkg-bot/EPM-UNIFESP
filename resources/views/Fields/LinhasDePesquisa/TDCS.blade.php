@@ -36,7 +36,7 @@
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
         </div>
-        <p><strong>Figura 1.</strong> Conforme ilustrado <a href="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" target="_blank">[1]</a> , a estimulação anódica (corrente de sinal negativo) leva a um aumento transitório na disponibilidade de cálcio no intracelular, com fosforilação do ciclo CREBS e acetilação do BDNF (especialmente de áreas promotoras), assim promovendo plasticidade sináptica no hipocampo e ganhos de memória e inteligência geral, como os que nosso time vem observando com idosos e peak performers.</p>
+        <p><strong>Figura 1.</strong> Conforme ilustrado [1] , a estimulação anódica (corrente de sinal negativo) leva a um aumento transitório na disponibilidade de cálcio no intracelular, com fosforilação do ciclo CREBS e acetilação do BDNF (especialmente de áreas promotoras), assim promovendo plasticidade sináptica no hipocampo e ganhos de memória e inteligência geral, como os que nosso time vem observando com idosos e peak performers.</p>
         <ol>
             <li><a href="#">Podda, M.V., et al., Anodal transcranial direct current stimulation boosts synaptic plasticity and memory in mice via epigenetic regulation of Bdnf expression. Scientific Reports, 2016. 6: p. 22180.</a></li>
         </ol>

@@ -36,7 +36,7 @@
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" alt="Neurofeedback"></a>
         </div>
-        <p><strong>Figura 1.</strong>Mapa de alteração de padrões cerebrais em sujeitos diagnosticados com depressão, tratados com neurofeedback por ressonância (f-MRI), conforme reportado em estudo publicado na NeuroImage  <a href="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" target="_blank">[1]</a> </p>
+        <p><strong>Figura 1.</strong>Mapa de alteração de padrões cerebrais em sujeitos diagnosticados com depressão, tratados com neurofeedback por ressonância (f-MRI), conforme reportado em estudo publicado na NeuroImage  [1] </p>
         <ol>
             <li><a href="#">Zotev, V., et al., Correlation between amygdala BOLD activity and frontal EEG asymmetry during real-time fMRI neurofeedback training in patients with depression. NeuroImage : Clinical, 2016. 11: p. 224-238.</a></li>
         </ol>

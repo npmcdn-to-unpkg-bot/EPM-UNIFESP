@@ -35,7 +35,7 @@
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/EyeTracking.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/EyeTracking.jpg')}}" alt="Eye Tracking"></a>
         </div>
-        <p><strong>Figura 1.</strong> Pontos de fixação facial no autismo <a href="{{asset('/images/Linha_de_pesquisa/EyeTracking.jpg')}}" target="_blank">[1]</a>. Série recente de estudos confirma que o eye tracking seja uma potente ferramenta no diagnóstico do autismo [2,3]</p>
+        <p><strong>Figura 1.</strong> Pontos de fixação facial no autismo [1]. Série recente de estudos confirma que o eye tracking seja uma potente ferramenta no diagnóstico do autismo [2,3]</p>
         <ol>
             <li><a href="#">Pelphrey, K.A., et al., Visual scanning of faces in autism. J Autism Dev Disord, 2002. 32(4): p. 249-61.</a></li>
             <li><a href="#">Hutchins, T.L. and A. Brien, Conversational topic moderates social attention in autism spectrum disorder: Talking about emotions is like driving in a snowstorm. Research in Autism Spectrum Disorders, 2016. 26: p. 99-110.</a></li>

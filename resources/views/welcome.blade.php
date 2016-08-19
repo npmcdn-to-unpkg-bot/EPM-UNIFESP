@@ -237,9 +237,8 @@
             <div id="bbTopFactsSection" class="top-facts big-section section" role="region" aria-label="Sobre nós">
                 <div class="sticky">
                     <div class="center">
-                        <div class="content force">
+                        <div class="content force" style="padding-top: 5%;padding-bottom: 5%;">
                             <div class="section-intro block" data-block-id="19563">
-                                <h2 class="head">Sobre Nós</h2>
                                 <p class="subhead">O Centro de Neuromodulação da EPM-UNIFESP é uma iniciativa científico-tecnológica voltada ao desenvolvimento de métodos e estudos em psiquiatria e áreas afins.</p>
                             </div>
                             <div class="facts force">
@@ -280,7 +279,7 @@
             <div id="bbDivisionsSection" class="divisions big-section section" role="region" aria-label="Areas de atuação">
                 <div class="sticky">
                     <div class="center">
-                        <div class="content force">
+                        <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
                             <div class="section-intro block" data-block-id="19403">
                                 <h2 class="head">Linhas de Pesquisa</h2>
                                 <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico biológico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
@@ -320,7 +319,7 @@
             <div id="bbMapsSection" class="maps big-section section" role="region" aria-label="Atividades" data-image="22160">
                 <div class="sticky">
                     <div class="center">
-                        <div class="content force">
+                        <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
                             <div class="section-intro block" data-block-id="19551">
                                 <h2 class="head">Inserir aqui algumas Atividades.</h2>
                                 <p class="subhead">Etiam quis eleifend ligula, vitae maximus lorem. Donec ut ligula non dui accumsan egestas eu et eros. Curabitur ornare sit amet lectus sed suscipit. Curabitur at odio sed nisi fermentum eleifend. Proin nec egestas lacus. In lacus nibh, suscipit eu enim id, dapibus malesuada nunc. Nulla ac aliquet massa.</p>
@@ -330,19 +329,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="fullwidth">
-                        <div class="content">
-                            {{--<div class="research-container force " style="height: 813px;">--}}
-                                {{--<div class="atividades" style="background-color: red;width: 30px; height: 30px"></div>--}}
-                                {{--<div class="atividades" style="background-color: blue;width: 30px; height: 30px"></div>--}}
-                            {{--</div>--}}
-                        </div>
-                    </div>
                 </div>
             </div>
             <div id="bbProgramExplorer" class="program-explorer section" role="region" aria-label="Procurar Produções">
                 <div class="center">
-                    <div class="content force">
+                    <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
                         <div class="programs-container force">
                             <div class="row column">
                                 <div class="search-box force">

@@ -438,9 +438,9 @@
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="20526" data-type="teaser">
                             <div class="image">
-                                <a href="{{url('/linhasdepesquisa/NEUROFEEDBACK')}}" title="NEUROFEEDBACK"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" alt="NEUROFEEDBACK"></a>
+                                <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="NEUROFEEDBACK"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" alt="NEUROFEEDBACK"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/NEUROFEEDBACK')}}" title="NEUROFEEDBACK">NEUROFEEDBACK</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="NEUROFEEDBACK">NEUROFEEDBACK</a></h3>
                             <div class="summary">
                                 <p>Neurofeedback é uma técnica de alteração de estados afetivos e melhora do desempenho cognitivo por meio da indução de mudanças de longo prazo na distribuição e comportamento dos padrões frequenciais do cérebro. Nas sessões clínicas, os clientes procuram atingir estados de funcionamento otimizados, tendo como referência aquilo que eletrodos dispostos sobre o escalpo e testa registram; na prática, controlam interfaces ‘com a força do pensamento’, o que torna as sessões bastante estimulantes para a maior.</p>
                             </div>

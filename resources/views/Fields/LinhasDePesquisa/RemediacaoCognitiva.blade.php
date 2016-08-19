@@ -34,7 +34,7 @@
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" alt="Remediação Cognitiva"></a>
         </div>
-        <p><strong>Figura 1.</strong> Conforme ilustrado <a href="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" target="_blank">[1]</a> a remediação cognitiva funciona particularmente bem quando associada a tratamentos farmacológicos, na esquizofrenia.</p>
+        <p><strong>Figura 1.</strong> Conforme ilustrado [1] a remediação cognitiva funciona particularmente bem quando associada a tratamentos farmacológicos, na esquizofrenia.</p>
         <ol>
             <li><a href="#">Wykes, T., et al., A Meta-Analysis of Cognitive Remediation for Schizophrenia: Methodology and Effect Sizes. American Journal of Psychiatry, 2011. 168(5): p. 472-485.</a></li>
             <li><a href="#">Acheson, D., E. Twamley, and J. Young, Reward learning as a potential target for pharmacological augmentation of cognitive remediation for schizophrenia: a roadmap for preclinical development. Frontiers in Neuroscience, 2013. 7(103).
