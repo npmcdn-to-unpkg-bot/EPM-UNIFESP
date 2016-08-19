@@ -403,8 +403,8 @@
             <div class="content force">
                 <div class="identification column force">
                     <a class="footer-logo column" href="http://homestead.app" style="margin-right: 0px;">
-                        <img class="horizontal-logo center" src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação" >
-                        <img class="vertical-logo center" src="{{asset('/images/logo_branco.png')}}" alt="Centro de Neuromodulação">
+                        <img class="horizontal-logo center" src="{{asset('/images/logo_cinza.png')}}" alt="Centro de Neuromodulação" >
+                        <img class="vertical-logo center" src="{{asset('/images/logo_cinza.png')}}" alt="Centro de Neuromodulação">
                     </a>
                     <ul class="contact column">
                         <li class="university-name">Centro de Neuromodulação</li>
@@ -420,7 +420,7 @@
                             <input type="hidden" name="c" value="gsa" />
                             <label for="search-gsa-711">Search</label>
                             <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
-                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">Enviar</span></button>
+                            <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
                         </form>
                     </div>
                     <a id="menu"></a>
