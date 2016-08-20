@@ -6,12 +6,12 @@
     <ul class="tier-2">
         <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
         <li class="active-page"> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
     </ul>
@@ -33,7 +33,7 @@
             <br><br>O Centro de Neuromodulação da EPM-UNIFESP conta com um equipamento premiado para a realização de registros autonômicos, todos os principais sensores utilizados na área e soluções de software próprias que facilitam a integração com registros do sistema nervoso central.
         </p>
         <br>
-        <div class="image embedded big-size align-right">
+        <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/eletrofisiologia.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/eletrofisiologia.jpg')}}" alt="Eletrofisiologia Periférica"></a>
         </div>
         <blockquote><strong>Figura 1.</strong> Ilustração de diferenças no ritmo cardíaco em consonância com o tônus emocional predominante (imagem cedida pela Willow Clinic, UK)</blockquote>

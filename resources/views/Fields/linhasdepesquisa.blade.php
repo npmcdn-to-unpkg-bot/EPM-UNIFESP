@@ -257,12 +257,12 @@
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
@@ -281,7 +281,7 @@
                                 <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
@@ -345,12 +345,12 @@
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
@@ -388,7 +388,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TNS.jpg')}}" alt="TNS - Transcutaneous electrical nerve stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation">TNS - Transcutaneous electrical nerve stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS - Transcutaneous electrical nerve stimulation">TNS – Estimulação do nervo trigêmeo </a></h3>
                             <div class="summary">
                                 <p>A TNS envolve a estimulação elétrica da terminação do ramo V1 do trigêmeo, que fica logo acima do supraorbital. Ao contrário do que ocorre com a tDCS e rTMS que agem de maneira top-down (do córtex para dentro), através da estimulação do trigêmeo, os impulsos navegam até o tronco encefálico e então se espraiam para o tálamo e córtex. </p>
                             </div>
@@ -399,7 +399,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation">rTMS - Transcranial magnetic stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/rTMS')}}" title="rTMS - Transcranial magnetic stimulation">rTMS – Estimulação magnética transcraniana</a></h3>
                             <div class="summary">
                                 <p>A estimulação magnética transcraniana é uma técnica que envolve a indução de campos magnéticos alternantes, através de uma bobina, para estimular as células nervosas.<br>Ao atingir o cérebro, os pulsos magnéticos são convertidos em corrente elétrica, produzindo efeitos neuroplásticos, que milhares de ensaios clínicos demonstraram promissores no tratamento de diversos transtornos psiquiátricos e doenças neurológicas.</p>
                             </div>
@@ -408,9 +408,9 @@
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="20524" data-type="teaser">
                             <div class="image">
-                                <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS - Transcranial direct current stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
+                                <a href="{{url('/linhasdepesquisa/TDCS')}}" title="tDCS - Transcranial direct current stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="tDCS - Transcranial direct current stimulation"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS - Transcranial direct current stimulation">TDCS - Transcranial direct current stimulation</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS - Transcranial direct current stimulation">tDCS – Estimulação transcraniana por corrente contínua</a></h3>
                             <div class="summary">
                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.</p>
                             </div>
@@ -420,7 +420,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="NEUROFEEDBACK"><img src="{{asset('/images/Linha_de_pesquisa/Neurofeedback.jpg')}}" alt="NEUROFEEDBACK"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="NEUROFEEDBACK">NEUROFEEDBACK</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="NEUROFEEDBACK">Neurofeedback</a></h3>
                             <div class="summary">
                                 <p>Neurofeedback é uma técnica de alteração de estados afetivos e melhora do desempenho cognitivo por meio da indução de mudanças de longo prazo na distribuição e comportamento dos padrões frequenciais do cérebro. Nas sessões clínicas, os clientes procuram atingir estados de funcionamento otimizados, tendo como referência aquilo que eletrodos dispostos sobre o escalpo e testa registram; na prática, controlam interfaces ‘com a força do pensamento’, o que torna as sessões bastante estimulantes para a maior.</p>
                             </div>
@@ -430,7 +430,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="REMEDIAÇÃO COGNITIVA"><img src="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" alt="REMEDIAÇÃO COGNITIVA"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="REMEDIAÇÃO COGNITIVA">REMEDIAÇÃO COGNITIVA</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="REMEDIAÇÃO COGNITIVA">Remediação Cognitiva</a></h3>
                             <div class="summary">
                                 <p>A terapia de remediação cognitiva (CRT) é um conjunto de técnicas de aprendizado verbal e não-verbal que visam otimizar competências conhecidas por terem papel essencial na inteligência geral e adaptabilidade individual, como tomada de decisão, memória de trabalho e atenção. </p>
                             </div>
@@ -440,7 +440,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG - Quantitative electroencephalography"><img src="{{asset('/images/Linha_de_pesquisa/QEEG.jpg')}}" alt="QEEG - Quantitative electroencephalography"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG - Quantitative electroencephalography">QEEG - Quantitative electroencephalography</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG - Quantitative electroencephalography">QEEG – Eletroencefalografia quantitativa</a></h3>
                             <div class="summary">
                                 <p>A eletroencefalografia serve à realização de medidas indiretas da atividade cerebral, ao passo que sua variante quantitativa (QEEG) simplesmente denota que existe alta densidade de canais sendo registrados. Conforme aumenta a cobertura do escalpo, cresce a possibilidade de se fazer estimativas acerca da origem de fenômenos biológicos, sejam eles de interesse clínico ou cognitivo-comportamental.</p>
                             </div>
@@ -450,7 +450,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="EYE TRACKING"><img src="{{asset('/images/Linha_de_pesquisa/EyeTracking.jpg')}}" alt="EYE TRACKING"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="EYE TRACKING">EYE TRACKING</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="EYE TRACKING">Eye Tracking</a></h3>
                             <div class="summary">
                                 <p>O eye tracking ou rastreamento ocular é um conjunto de técnicas utilizadas para mapear deslocamentos oculares e pontos de fixação.</p>
                             </div>
@@ -458,9 +458,9 @@
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="20537" data-type="teaser">
                             <div class="image">
-                                <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI - Functional magnetic resonance imaging"><img src="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" alt="fMRI - Functional magnetic resonance imaging"></a>
+                                <a href="{{url('/linhasdepesquisa/FMRI')}}" title="fMRI - Functional magnetic resonance imaging"><img src="{{asset('/images/Linha_de_pesquisa/FMRI.jpg')}}" alt="fMRI - Ressonância Magnética Funcional"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI - Functional magnetic resonance imaging">FMRI - Functional magnetic resonance imaging </a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI - Functional magnetic resonance imaging">fMRI - Ressonância Magnética Funcional</a></h3>
                             <div class="summary">
                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva.</p>
                             </div>
@@ -471,7 +471,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/Genetica')}}" title="GENÉTICA"><img src="{{asset('/images/Linha_de_pesquisa/genetica.jpg')}}" alt="GENÉTICA"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Genetica')}}" title="GENÉTICA">GENÉTICA</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Genetica')}}" title="GENÉTICA">Genética</a></h3>
                             <div class="summary">
                                 <p> Tal como se aplica à personalidade, habilidades e perfil afetivo, a maioria dos transtornos psiquiátricos parece estar relacionada a uma combinação de predisposições genéticas e determinações ambientais.</p>
                             </div>
@@ -482,7 +482,7 @@
                             <div class="image">
                                 <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="ELETROFISIOLOGIA PERIFÉRICA"><img src="{{asset('/images/Linha_de_pesquisa/eletrofisiologia.jpg')}}" alt="ELETROFISIOLOGIA PERIFÉRICA"></a>
                             </div>
-                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="ELETROFISIOLOGIA PERIFÉRICA">ELETROFISIOLOGIA PERIFÉRICA</a></h3>
+                            <h3 class="headline"><a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="ELETROFISIOLOGIA PERIFÉRICA">Eletrofisiologia Periférica</a></h3>
                             <div class="summary">
                                 <p>O sistema nervoso pode ser esquematicamente dividido em central e periférico, sendo este último constituído pelos gânglios e nervos situados fora do complexo cérebro-medula espinhal.</p>
                             </div>
@@ -509,6 +509,14 @@
                         <li class="university-name">Centro de Neuromodulação</li>
                         <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>
                         <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
+                        <li>
+                            <div class="social-links">
+                                <p>O Centro de Neuromodulação da EPM-UNIFESP é parte do ecossistema acadêmico do DecisionHub. Encontre-nos nas redes sociais.</p>
+                                <a class="twitter fa-stack" href="#" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
+                                <a class="facebook fa-stack" href="#" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
+                                <a class="linkedin fa-stack" href="#" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
+                            </div>
+                        <li>
                     </ul>
                 </div>
                 <div class="nav column force">

@@ -276,12 +276,12 @@
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
@@ -390,6 +390,14 @@
                         <li class="university-name">Centro de Neuromodulação</li>
                         <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>
                         <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
+                        <li>
+                            <div class="social-links">
+                                <p>O Centro de Neuromodulação da EPM-UNIFESP é parte do ecossistema acadêmico do DecisionHub. Encontre-nos nas redes sociais.</p>
+                                <a class="twitter fa-stack" href="#" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
+                                <a class="facebook fa-stack" href="#" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
+                                <a class="linkedin fa-stack" href="#" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
+                            </div>
+                        <li>
                     </ul>
                 </div>
                 <div class="nav column force">

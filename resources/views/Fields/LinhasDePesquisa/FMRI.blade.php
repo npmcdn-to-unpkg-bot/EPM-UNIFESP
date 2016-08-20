@@ -6,12 +6,12 @@
     <ul class="tier-2">
         <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-        <li class="active-page"> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+        <li class="active-page"> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
     </ul>
@@ -20,7 +20,7 @@
 @section('block')
     <div class="block" data-block-id="8015">
 
-        <h2 class="head">fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING</h2>
+        <h2 class="head">fMRI - Ressonância Magnética Funcional</h2>
         <div class="type-image" data-id="16484">
             <div class="image embedded small-size align-right">
                 <a href="{{asset('/images/Linha_de_pesquisa/FMRI_small.png')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/FMRI_small.png')}}" alt="fMRI - FUNCTIONAL MAGNETIC RESONANCE IMAGING"></a>

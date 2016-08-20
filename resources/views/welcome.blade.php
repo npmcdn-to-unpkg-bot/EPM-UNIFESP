@@ -86,19 +86,18 @@
     <!--googleon: all-->
     <v class="page-container">
         <!--[if lt IE 9]> <p class="browse-happy">Você está usando um navegador <strong>antigo</strong>. Por Favor<a href="http://browsehappy.com/">atualize</a> para melhorar a sua experiência.</p> <![endif]-->
-        <div class="identity-stripe section">
-            <div class="center">
-                <div class="content force">
-                    <a class="logo-tab" href="index.html"><img src="{{asset('/images/logos/university-logo-small-horizontal-white-43ab279882.png')}}" alt="Johns Hopkins University"></a>
-                </div>
-            </div>
-        </div>
+
         <div id="bbHeroSection" class="hero default section" role="banner" data-mp4="#" data-webm="#" style="height: 650px;">
             <div class="sticky">
                 <div class="fullwidth fullheight" style="margin-left: 0px; margin-top: 0px; width: 1799px; height: 889px;">
                     <div class="content">
+                        <div class="identity-stripe" role="banner" style="margin-bottom: 10px; cursor: url({{asset('/images/cursor-do-centro-de-neuromodulaão-04_1.cur')}}),auto; ">
+                            <div class="center force">
+                                <a class="logo-tab column" href="{{url('/')}}" title="Home" style="padding: 0 0 10px 0; "><img src="{{asset('/images/logo_azul.png')}}" alt="Centro de Neuromodulação" ></a>
+                            </div>
+                        </div>
                         <div class="animação" style="margin-left: 0px; margin-top: -60.8371px; width: 100%; height: 120%; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 90%; width: 100%;margin-top: 1.5em;">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 90%; width: 100%;margin-top: 2.5em;">
                                 <g id="experiment">
                                     <g id="tubeLiquid">
                                         <polyline fill="none" stroke="#FF7840" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 458.7,399 533.6,399.2 545,367 560.3,423 578.3,356.3 616.3,436.3 615.7,354.7 663.7,402 663.3,312.3 "></polyline>
@@ -205,6 +204,12 @@
                                         <circle fill="#FF7840" cx="595" cy="658.5" r="8.2"></circle>
                                         <circle fill="#FF7840" cx="620.5" cy="658.5" r="8.2"></circle>
                                     </g>
+                                    <style type="text/css">
+                                        .st14{fill:#EDF4F2;}
+                                        .st15{font-family:'ArialMT';}
+                                        .st16{font-size:13.7408px;}
+                                    </style>
+                                    <text transform="matrix(1 0 0 1 120 213)" class="st14 st15 st16">Clique no Cérebro</text>
                                 </g>
                                 <rect id="invBtn" x="0" y="0" opacity="0" fill="#B9D0E4" width="800" height="800" data-svg-origin="0 0" style="transform: matrix(1, 0, 0, 1, 0, 0);"></rect>
                             </svg>
@@ -282,9 +287,9 @@
                                     <div style="top: 50%; left: 50%;" class="jhu division bubble column shrink"> <span class="text">Centro de Neuromodulação</span> </div>
                                     <a href="{{url("/linhasdepesquisa/Genetica")}}" ><button style="top: 80%; left: 56%; cursor: pointer;" class="division bubble button column bubble-1 applied-physics-laboratory "><span class="text">GENÉTICA</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/Neurofeedback")}}" ><button style="top: 13%; left: 30%; cursor: pointer;" class="division bubble button column bubble-2 school-of-public-health "><span class="text">NEUROFEEDBACK</span> </button></a>
-                                    <a href="{{url("/linhasdepesquisa/rTMS")}}" ><button style="top: 17%; left: 6%;" class="division bubble button column bubble-3 carey-business-school "><span class="text">TMS</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/rTMS")}}" ><button style="top: 17%; left: 6%;" class="division bubble button column bubble-3 carey-business-school "><span class="text">rTMS</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/RemediacaoCognitiva")}}" ><button style="top: 22%; left: 50%; cursor: pointer;" class="division bubble button column bubble-4 school-of-arts-and-sciences "><span class="text">REMEDIAÇÃO COGNITIVA</span> </button></a>
-                                    <a href="{{url("/linhasdepesquisa/FMRI")}}" ><button style="top: 90%; left: 20%;" class="division bubble button column bubble-5 peabody-institute "><span class="text">FMRI</span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/FMRI")}}" ><button style="top: 90%; left: 20%;" class="division bubble button column bubble-5 peabody-institute "><span class="text">fMRI</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/QEEG")}}" ><button style="top: 90%; left: 40%; cursor: pointer;" class="division bubble button column bubble-6 sais "><span class="text">QEEG</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/TNS")}}" ><button style="top: 30%; left: 80%; cursor: pointer;" class="division bubble button column bubble-7 school-of-education "><span class="text">TNS</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/TDCS")}}" > <button style="top: 11%; left: 70%; cursor: pointer;" class="division bubble button column bubble-8 school-of-medicine "><span class="text"> TDCS </span> </button></a>
@@ -310,6 +315,14 @@
                             <li class="university-name">Centro de Neuromodulação</li>
                             <li class="address"><i class="fa fa-fw fa-map-marker"></i>Rua Pedro De Toledo, 669, Terceiro Andar.</li>
                             <li class="phone-number"><i class="fa fa-fw fa-phone-square"></i>(11) 5576-4845</li>
+                            <li>
+                                                                <div class="social-links">
+                                                                    <p>O Centro de Neuromodulação da EPM-UNIFESP é parte do ecossistema acadêmico do DecisionHub. Encontre-nos nas redes sociais.</p>
+                                                                    <a class="twitter fa-stack" href="#" title="Twitter"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-twitter-square" aria-hidden="true"></i> <span class="icon-fallback">Twitter</span> </a>
+                                                                    <a class="facebook fa-stack" href="#" title="Facebook"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-facebook-square" aria-hidden="true"></i> <span class="icon-fallback">Facebook</span> </a>
+                                                                    <a class="linkedin fa-stack" href="#" title="LinkedIn"> <i class="fa fa-stack-1x fa-square" aria-hidden="true"></i> <i class="fa fa-stack-1x fa-linkedin-square" aria-hidden="true"></i> <span class="icon-fallback">LinkedIn</span> </a>
+                                                                </div>
+                            <li>
                         </ul>
                     </div>
                     <div class="nav column force">

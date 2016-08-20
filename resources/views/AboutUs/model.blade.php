@@ -338,7 +338,7 @@
                                 <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Education" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Engineering" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Medicine" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Nursing" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Nursing" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Peabody Conservatory" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa')}}" title="Public Health" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>

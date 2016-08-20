@@ -6,12 +6,12 @@
     <ul class="tier-2">
         <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
         <li class="active-page"> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
     </ul>
@@ -27,14 +27,14 @@
             </div>
         </div>
         <p>
-            A terapia de remediação cognitiva (CRT) é um conjunto de técnicas de aprendizado verbal e não-verbal que visam otimizar competências conhecidas por terem papel essencial na inteligência geral e adaptabilidade individual, como tomada de decisão, memória de trabalho e atenção. Seu uso como tratamento coadjuvante em psiquiatria encontra-se amplamente documentado, representando uma mudança de paradigma no âmbito das abordagens cognitivo-comportamentais tradicionais. Uma meta-análise publicada na revista americana de psiquiatria (N = 2104) concluiu que a remediação cognitiva é capaz de produzir efeitos globais e duradouros em pacientes com esquizofrenia [1].
+            A terapia de remediação cognitiva (CRT) define-se pela aplicação de um conjunto de técnicas de aprendizado verbal e não-verbal que visam otimizar competências conhecidas por terem papel essencial na inteligência geral e adaptabilidade individual, como tomada de decisão, memória de trabalho e atenção. Seu uso como tratamento coadjuvante em psiquiatria encontra-se amplamente documentado, representando uma mudança de paradigma no âmbito das abordagens cognitivo-comportamentais tradicionais. Uma meta-análise publicada na revista americana de psiquiatria (N = 2104) concluiu que a remediação cognitiva é capaz de produzir efeitos globais e duradouros em pacientes com esquizofrenia [1].
             <br><br>A técnica foi introduzida no país pelo diretor clínico do Centro de Neuromodulação da EPM-UNIFESP, Prof. Dr. Acioly Lacerda Tavares, que atualmente lidera um consórcio para expandir seu uso por meio de sistemas computacionais desenvolvidos em parceria com universidades americanas de renome.
         </p>
         <br>
         <div class="image embedded big-size align-center">
             <a href="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" target="_blank"><img src="{{asset('/images/Linha_de_pesquisa/RemediacaoCognitiva.jpg')}}" alt="Remediação Cognitiva"></a>
         </div>
-        <p><strong>Figura 1.</strong> Conforme ilustrado [1] a remediação cognitiva funciona particularmente bem quando associada a tratamentos farmacológicos, na esquizofrenia.</p>
+        <p><strong>Figura 1.</strong> Conforme ilustrado a remediação cognitiva funciona particularmente bem quando associada a tratamentos farmacológicos, na esquizofrenia.</p>
         <ol>
             <li><a href="#">Wykes, T., et al., A Meta-Analysis of Cognitive Remediation for Schizophrenia: Methodology and Effect Sizes. American Journal of Psychiatry, 2011. 168(5): p. 472-485.</a></li>
             <li><a href="#">Acheson, D., E. Twamley, and J. Young, Reward learning as a potential target for pharmacological augmentation of cognitive remediation for schizophrenia: a roadmap for preclinical development. Frontiers in Neuroscience, 2013. 7(103).

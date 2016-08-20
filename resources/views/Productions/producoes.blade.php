@@ -109,7 +109,7 @@
                                 <div class="filter">
                                     <div class="form-field TNS">
                                         <input type="checkbox" value=".school-of-public-health" id="school-of-public-health-view646" tabindex="-1">
-                                        <label for="school-of-public-health-view646"><a href="#">TNS - Transcutaneous electrical nerve stimulation</a></label>
+                                        <label for="school-of-public-health-view646"><a href="#">TNS – Estimulação do nervo trigêmeo</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A TNS envolve a estimulação elétrica da terminação do ramo V1 do trigêmeo, que fica logo acima do supraorbital. Ao contrário do que ocorre com a tDCS e rTMS que agem de maneira top-down (do córtex para dentro), através da estimulação do trigêmeo, os impulsos navegam até o tronco encefálico e então se espraiam para o tálamo e córtex.</p>
@@ -120,7 +120,7 @@
                                 <div class="filter">
                                     <div class="form-field TMS">
                                         <input type="checkbox" value=".carey-business-school" id="carey-business-school-view647" tabindex="-1">
-                                        <label for="carey-business-school-view647"><a href="#">TMS - Transcranial magnetic stimulation</a></label>
+                                        <label for="carey-business-school-view647"><a href="#">rTMS – Estimulação magnética transcraniana</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A estimulação magnética transcraniana é uma técnica que envolve a indução de campos magnéticos alternantes, através de uma bobina, para estimular as células nervosas.
@@ -132,7 +132,7 @@
                                 <div class="filter">
                                     <div class="form-field TDCS">
                                         <input type="checkbox" value=".school-of-arts-and-sciences" id="school-of-arts-and-sciences-view648" tabindex="-1">
-                                        <label for="school-of-arts-and-sciences-view648"><a href="#">TDCS - Transcranial direct current stimulation</a></label>
+                                        <label for="school-of-arts-and-sciences-view648"><a href="#">tDCS – Estimulação transcraniana por corrente contínua</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.</p>
@@ -165,7 +165,7 @@
                                 <div class="filter">
                                     <div class="form-field QEEG">
                                         <input type="checkbox" value=".school-of-education" id="school-of-education-view651" tabindex="-1">
-                                        <label for="school-of-education-view651"><a href="#">QEEG - Quantitative electroencephalography</a></label>
+                                        <label for="school-of-education-view651"><a href="#"> QEEG – Eletroencefalografia quantitativa</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A eletroencefalografia serve à realização de medidas indiretas da atividade cerebral, ao passo que sua variante quantitativa (QEEG) simplesmente denota que existe alta densidade de canais sendo registrados. Conforme aumenta a cobertura do escalpo, cresce a possibilidade de se fazer estimativas acerca da origem de fenômenos biológicos, sejam eles de interesse clínico ou cognitivo-comportamental.</p>
@@ -187,7 +187,7 @@
                                 <div class="filter">
                                     <div class="form-field FMRI">
                                         <input type="checkbox" value=".school-of-nursing" id="school-of-nursing-view653" tabindex="-1">
-                                        <label for="school-of-nursing-view653"><a href="#">FMRI - Functional magnetic resonance imaging </a></label>
+                                        <label for="school-of-nursing-view653"><a href="#">fMRI - Ressonância Magnética Funcional</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva.</p>

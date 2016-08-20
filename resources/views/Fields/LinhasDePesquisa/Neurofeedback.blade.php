@@ -6,12 +6,12 @@
     <ul class="tier-2">
         <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
         <li class="active-page"> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+        <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
         <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
     </ul>
@@ -27,10 +27,10 @@
             </div>
         </div>
         <p>
-            Neurofeedback é uma técnica de alteração de estados afetivos e melhora do desempenho cognitivo por meio da indução de mudanças de longo prazo na distribuição e comportamento dos padrões frequenciais do cérebro. Nas sessões clínicas, os clientes procuram atingir estados de funcionamento otimizados, tendo como referência aquilo que eletrodos dispostos sobre o escalpo e testa registram; na prática, controlam interfaces ‘com a força do pensamento’, o que torna as sessões bastante estimulantes para a maior.
-            <br><br>Em 2012, a sociedade americana de pediatria erigiu o neurofeedback a intervenção de nível 1 (grau mais elevado de eficácia) para déficit de atenção, equiparando-o às mais potentes medicações. http://coe.csusb.edu/documents/CRPsychosocialInterventions.pdf
-            <br><br>Nosso time produziu a grande maioria dos papers de impacto brasileiros no tema, ao passo que a nossa diretora de conteúdo e coordenadora da área de neurofeedback, July Silveira, foi uma das fundadoras da Associação Brasileira de Neurofeedback e é uma das mais atuantes profissionais do país.
-            <br><br>A técnica de controle de interfaces por ondas cerebrais também pode ser utilizada fora do contexto clínico; foi com base nela que o nosso diretor executivo, Prof. Dr. Álvaro Machado Dias, em colaboração com o coordenador de neurociências computacionais do Centro de Neuromodulação da EPM-UNIFESP, Dr. Henrique Teruo Akiba, além de importantes artistas, criaram a obra videowave, primeira instalação neurocientífica da América Latina (http://goo.gl/A9eA1y).
+            Neurofeedback é uma técnica de alteração de estados afetivos e melhora do desempenho cognitivo por meio da indução de mudanças de longo prazo na distribuição e comportamento dos padrões frequenciais do cérebro. Nas sessões clínicas, os pacientes procuram atingir estados de funcionamento otimizados, tendo como referência aquilo que eletrodos dispostos sobre o escalpo e testa registram; na prática, controlam interfaces ‘com a força do pensamento’, o que torna as sessões bastante estimulantes para a maior.
+            <br><br>Em 2012, a sociedade americana de pediatria erigiu o neurofeedback a intervenção de nível 1 (grau mais elevado de eficácia) para déficit de atenção, equiparando-o às mais potentes medicações. <a href="http://coe.csusb.edu/documents/CRPsychosocialInterventions.pdf">http://coe.csusb.edu/documents/CRPsychosocialInterventions.pdf</a>
+            <br><br>Nosso time produziu parte substancial dos papers de impacto brasileiros no tema, ao passo que a nossa diretora de conteúdo e diretora da área de neurofeedback, July Silveira, foi uma das fundadoras da Associação Brasileira de Neurofeedback e é uma das mais atuantes profissionais do país.
+            <br><br>A técnica de controle de interfaces por ondas cerebrais também pode ser utilizada fora do contexto clínico; foi com base nela que o nosso diretor executivo, em colaboração com o diretor de neurociências computacionais do Centro de Neuromodulação da EPM-UNIFESP, Dr. Henrique Teruo Akiba, além de importantes artistas, criaram a obra videowave, primeira instalação neurocientífica da América Latina <a href="http://goo.gl/A9eA1y">(http://goo.gl/A9eA1y)</a>.
         </p>
         <br>
         <div class="image embedded big-size align-center">
