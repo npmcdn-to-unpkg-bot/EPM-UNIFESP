@@ -32,7 +32,7 @@
                                     <h4>Linhas de Pesquisa</h4></legend>
                                 <div class="filter">
                                     <div class="form-field TNS">
-                                        <input type="checkbox" value="tns" id="tns" tabindex="-1">
+                                        <input type="checkbox" value="TNS" id="tns" tabindex="-1">
                                         <label for="tns"><a href="#">TNS – Estimulação do nervo trigêmeo</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field TMS">
-                                        <input type="checkbox" value="rtms" id="rtms" tabindex="-1">
+                                        <input type="checkbox" value="RTMS" id="rtms" tabindex="-1">
                                         <label for="rtms"><a href="#">rTMS – Estimulação magnética transcraniana</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -55,7 +55,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field TDCS">
-                                        <input type="checkbox" value="tdcs" id="tdcs" tabindex="-1">
+                                        <input type="checkbox" value=TDCS" id="tdcs" tabindex="-1">
                                         <label for="tdcs"><a href="#">tDCS – Estimulação transcraniana por corrente contínua</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field NEUROFEEDBACK">
-                                        <input type="checkbox" value="neurofeedback" id="neurofeedback" tabindex="-1">
+                                        <input type="checkbox" value="NEUROFEEDBACK" id="neurofeedback" tabindex="-1">
                                         <label for="neurofeedback"><a href="#">NEUROFEEDBACK</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field REMEDIACAO">
-                                        <input type="checkbox" value="remediacao" id="remediacao" tabindex="-1">
+                                        <input type="checkbox" value="REMEDIACAO" id="remediacao" tabindex="-1">
                                         <label for="remediacao"><a href="#">REMEDIAÇÃO COGNITIVA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field QEEG">
-                                        <input type="checkbox" value="qeeg" id="qeeg" tabindex="-1">
+                                        <input type="checkbox" value="QEEG" id="qeeg" tabindex="-1">
                                         <label for="qeeg"><a href="#"> QEEG – Eletroencefalografia quantitativa</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -99,7 +99,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field EYETRACKING">
-                                        <input type="checkbox" value="eyetracking" id="eyetracking" tabindex="-1">
+                                        <input type="checkbox" value="EYETRACKING" id="eyetracking" tabindex="-1">
                                         <label for="eyetracking"><a href="#">EYE TRACKING</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field FMRI">
-                                        <input type="checkbox" value="fmri" id="fmri" tabindex="-1">
+                                        <input type="checkbox" value="FMRI" id="fmri" tabindex="-1">
                                         <label for="fmri"><a href="#">fMRI - Ressonância Magnética Funcional</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field GENETICA">
-                                        <input type="checkbox" value="genetica" id="genetica" tabindex="-1">
+                                        <input type="checkbox" value="GENETICA" id="genetica" tabindex="-1">
                                         <label for="genetica"><a href="#">GENÉTICA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
@@ -132,7 +132,7 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field ELETROFISIOLOGIA">
-                                        <input type="checkbox" value="eletrofisiologia" id="eletrofisiologia" tabindex="-1">
+                                        <input type="checkbox" value="ELETROFISIOLOGIA" id="eletrofisiologia" tabindex="-1">
                                         <label for="eletrofisiologia"><a href="#">ELETROFISIOLOGIA PERIFÉRICA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
