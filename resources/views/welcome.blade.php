@@ -18,6 +18,7 @@
                         <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                         <div class="search-box force">
                             <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
+                                {{ csrf_field() }}
                                 <label for="search-gsa-826">Pesquisar</label>
                                 <input id="search-gsa-826" class="column" type="text" name="searchbar" value="" autocomplete="off">
                                 <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
@@ -322,6 +323,7 @@
                         <div class="search-box force">
                             <!--trocar o action-->
                             <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
+                                {{ csrf_field() }}
                                 <label for="search-gsa-711">Pesquisar</label>
                                 <input id="search-gsa-711" class="column" type="text" name="searchbar" value="" autocomplete="off">
                                 <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>

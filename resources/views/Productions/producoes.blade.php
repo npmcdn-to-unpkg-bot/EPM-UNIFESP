@@ -18,7 +18,8 @@
                                 <legend><h4>Palavra-chave</h4></legend>
                                 <div class="filter">
                                     <div class="search-box force">
-                                        <label for="search-view632"Pesquisar</label>
+                                        {{ csrf_field() }}
+                                        <label for="search-view632">Pesquisar</label>
                                         <input id="search-view632" class="column" type="text" name="searchbar" value="" autocomplete="off">
                                         <button type="button" class="column submit-button button"><i class="fa fa-fw fa-compass"></i><span class="text">Pesquisar</span></button>
                                         <a class="column clear-button button" href="{{url('/producoes')}}"><i class="fa fa-fw fa-eraser"></i><span class="text">Limpar</span></a>

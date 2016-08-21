@@ -397,6 +397,7 @@
                     <div class="search-box force">
                         <!--trocar o action-->
                         <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
+                            {{ csrf_field() }}
                             <label for="search-gsa-711">Pesquisar</label>
                             <input id="search-gsa-711" class="column" type="text" name="searchbar" value="" autocomplete="off">
                             <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
