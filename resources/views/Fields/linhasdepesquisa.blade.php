@@ -226,20 +226,11 @@
                 <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                     <div class="search-box force">
-                        <form method="GET" action="#" class="column force" role="search">
-                            <input type="hidden" name="c" value="gsa">
+                        <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
                             <label for="search-gsa-826">Pesquisar</label>
-                            <input id="search-gsa-826" class="column" type="text" name="q" value="" autocomplete="off">
+                            <input id="search-gsa-826" class="column" type="text" name="searchbar" value="" autocomplete="off">
                             <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
                         </form>
-                    </div>
-                    <div class="ga-search-suggestions">
-                        <h4>Pesquisas comuns</h4>
-                        <ul class="ga-suggestion-set">
-                            <li><a href="about/history/index.html">Test 1</a></li>
-                            <li><a href="academics/index.html#!/bachelors">Test 2</a></li>
-                            <li><a href="academics/graduate-studies/index.html">Test 3</a></li>
-                        </ul>
                     </div>
                 </div>
 
@@ -524,10 +515,9 @@
                     <a id="search"></a>
                     <div class="search-box force">
                         <!--trocar o action-->
-                        <form method="GET" action="https://www.decisionhub.com.br/search" class="column force" role="search">
-                            <input type="hidden" name="c" value="gsa" />
-                            <label for="search-gsa-711">Search</label>
-                            <input id="search-gsa-711" class="column" type="text" name="q" value="" autocomplete="off">
+                        <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
+                            <label for="search-gsa-711">Pesquisar</label>
+                            <input id="search-gsa-711" class="column" type="text" name="searchbar" value="" autocomplete="off">
                             <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
                         </form>
                     </div>

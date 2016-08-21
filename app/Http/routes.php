@@ -108,7 +108,7 @@ Route::get('/pessoas', function(){
     ]);
 });
 
-Route::post('/pessoas/pesquisar', function( Request $request){
+Route::post('/pessoas/pesquisar/', function( Request $request){
     $researchers = Researcher::where( 'name', 'like', $request->searchbar)->orWhere('bio','like', $request->searchbar)->get();
 
     return view('People.pessoas', [
