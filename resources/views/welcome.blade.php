@@ -267,7 +267,7 @@
                         <div class="content force" style="padding-top: 6%; padding-bottom: 6%;">
                             <div class="section-intro block" data-block-id="19403">
                                 <h2 class="head">Linhas de Pesquisa</h2>
-                                <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação. Conheça as diferentes técnicas com as quais trabalhamos.</p>
+                                <p class="subhead">Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
                             </div>
                             <div class="divisions-container column force">
                                 <div class="division-set force">
@@ -292,7 +292,7 @@
                                     <a href="{{url("/linhasdepesquisa/FMRI")}}" ><button style="top: 90%; left: 20%;" class="division bubble button column bubble-5 peabody-institute "><span class="text">fMRI</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/QEEG")}}" ><button style="top: 90%; left: 40%; cursor: pointer;" class="division bubble button column bubble-6 sais "><span class="text">QEEG</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/TNS")}}" ><button style="top: 30%; left: 80%; cursor: pointer;" class="division bubble button column bubble-7 school-of-education "><span class="text">TNS</span> </button></a>
-                                    <a href="{{url("/linhasdepesquisa/TDCS")}}" > <button style="top: 11%; left: 70%; cursor: pointer;" class="division bubble button column bubble-8 school-of-medicine "><span class="text"> TDCS </span> </button></a>
+                                    <a href="{{url("/linhasdepesquisa/TDCS")}}" > <button style="top: 11%; left: 70%; cursor: pointer;" class="division bubble button column bubble-8 school-of-medicine "><span class="text"> tDCS </span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/EyeTracking")}}" ><button style="top: 66%; left: 30%; cursor: pointer;" class="division bubble button column bubble-9 school-of-nursing "><span class="text">EYE TRACKING</span> </button></a>
                                     <a href="{{url("/linhasdepesquisa/Eletrofisiologia")}}" ><button style="top: 78%; left: 76%;" class="division bubble button column bubble-10 school-of-engineering "><span class="text"> ELETROFISIOLOGIA PERIFÉRICA</span> </button></a>
                                 </div>

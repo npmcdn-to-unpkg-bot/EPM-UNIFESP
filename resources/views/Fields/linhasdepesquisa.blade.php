@@ -382,7 +382,7 @@
                 <!--googleon: all-->
                 <div id="main-content" class="primary-content column force" role="main">
                     <div class="block" data-block-id="13476">
-                        <p>Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico biológico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
+                        <p>Nossos cientistas e pesquisadores clínicos são especialistas em neuromodulação e diagnóstico. Conheça as diferentes técnicas com as quais trabalhamos.</p>
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="20521" data-type="teaser">
                             <div class="image">
@@ -462,7 +462,7 @@
                             </div>
                             <h3 class="headline"><a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI - Functional magnetic resonance imaging">fMRI - Ressonância Magnética Funcional</a></h3>
                             <div class="summary">
-                                <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva.</p>
+                                <p>A ressonância magnética funcional (fMRI ou RMf) é a principal técnica de imageamento cerebral utilizada no mundo para diagnósticos clínicos e compreensão das dinâmicas cerebrais subjacentes a processos afetivos e cognitivos.</p>
                             </div>
                         </div>
 
