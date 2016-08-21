@@ -394,7 +394,39 @@
     });
 
 </script>
+<script>
+    var filter;
 
+    function hide(filter) {
+        $('.grid-item').not(filter).hide();
+        $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item'
+            , columnWidth: 200
+        });
+    };
+
+    function show(filter) {
+        $(filter).show();
+        $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item'
+            , columnWidth: 200
+        });
+    };
+
+    $('.filter').click(function () {
+        if ($(this).hasClass('active')) {
+            $(this).toggleClass('active');
+            filter = $(this).find('input').val();
+            show(filter);
+        } else {
+            $(this).toggleClass('active');
+            filter = $(this).find('input').val();
+            hide(filter);
+        }
+    });
+</script>
 
 
 </body>

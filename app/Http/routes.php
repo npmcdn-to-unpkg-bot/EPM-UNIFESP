@@ -108,6 +108,14 @@ Route::get('/pessoas', function(){
     ]);
 });
 
+Route::post('/pessoas/pesquisar', function( Request $request){
+    $researchers = Researcher::where( 'name', 'like', $request->searchbar)->orWhere('bio','like', $request->searchbar)->get();
+
+    return view('People.pessoas', [
+        'researchers' => $researchers
+    ]);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Produções
@@ -115,10 +123,20 @@ Route::get('/pessoas', function(){
 */
 Route::get('/producoes', function(){
     $papers = Paper::orderBy('name', 'asc')->get();
+    
     return view('Productions.producoes', [
         'papers' => $papers
     ]);
 });
+
+Route::post('/producoes/pesquisar', function( Request $request){
+    $papers = Paper::where( 'name', 'like', $request->searchbar)->orWhere('fields','like', $request->searchbar)->orWhere('summary','like',$request->searchbar)->orWhere('authors','like',$request->searchbar)->get();
+
+    return view('Productions.producoes', [
+        'papers' => $papers
+    ]);
+});
+
 
 /*
 |--------------------------------------------------------------------------
