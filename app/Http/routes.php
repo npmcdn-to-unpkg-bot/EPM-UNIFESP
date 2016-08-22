@@ -130,7 +130,8 @@ Route::get('/producoes', function(){
 });
 
 Route::post('/producoes/pesquisar', function( Request $request){
-    $papers = Paper::where( 'name', 'like',  '%'.$request->input('searchbar').'$')->orWhere('fields','like',  '%'.$request->input('searchbar').'$')->orWhere('summary','like', '%'.$request->input('searchbar').'$')->orWhere('authors','like', '%'.$request->input('searchbar').'$')->get();
+    $searchbar = $request->input('searchbar');
+    $papers = Paper::where( 'name', 'like',  '%'.$searchbar.'$')->orWhere('fields','like',  '%'.$searchbar.'$')->orWhere('summary','like', '%'.$searchbar.'$')->orWhere('authors','like', '%'.$searchbar.'$')->get();
 
     return view('Productions.producoes', [
         'papers' => $papers
