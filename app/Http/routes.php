@@ -1,7 +1,11 @@
 <?php
+
+
 use App\Researcher;
 use App\Paper;
 use Illuminate\Http\Request;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -131,9 +135,13 @@ Route::get('/producoes', function(){
 
 Route::post('/producoes/pesquisar', function( Request $request){
     $searchbar = $request->searchbar;
-    $papers = Paper::where( 'name', 'like',  '%'.$searchbar.'$')->orWhere('fields','like',  '%'.$searchbar.'$')->orWhere('summary','like', '%'.$searchbar.'$')->orWhere('authors','like', '%'.$searchbar.'$')->get();
+    $papers = Paper::where( 'name', 'like','%'.$searchbar.'$')
+//        ->orWhere('fields','like','%'.$searchbar.'$')
+//        ->orWhere('summary','like','%'.$searchbar.'$')
+//        ->orWhere('authors','like','%'.$searchbar.'$')
+        ->get();
 
-    return 'Essa é a barra de pesquisa: '.$searchbar . 'Esse é o resultado da query'.$papers;
+    return 'Essa é a barra de pesquisa: '.$searchbar . ' Esse é o resultado da query'.$papers;
 //    return view('Productions.producoes', [
 //        'papers' => $papers
 //    ]);
