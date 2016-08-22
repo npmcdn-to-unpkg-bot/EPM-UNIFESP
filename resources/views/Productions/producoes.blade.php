@@ -13,16 +13,16 @@
                     <p class="old-browser"><strong>For a more interactive experience, please <a href="http://browsehappy.com/">upgrade your browser</a>.</strong></p>
                     <div class="filters column force">
                         <div class="display-nav closed"><span>Filtros</span> <i class="fa fa-fw fa-chevron-down open"></i> <i class="fa fa-fw fa-times close"></i> </div>
-                        <form class="closed" action="{{url('/producoes/pesquisar')}}" method="post">
+                        <form class="closed" action="{{url('/producoes/pesquisar')}}" method="POST">
                             <fieldset data-group="keyword">
                                 <legend><h4>Palavra-chave</h4></legend>
                                 <div class="">
                                     <div class="search-box force">
                                         {{ csrf_field() }}
                                         <label for="search-view632">Pesquisar</label>
-                                        <input id="search-view632" class="column" type="text" name="searchbar" value="" autocomplete="off">
-                                        <button type="button" class="column submit-button button"><i class="fa fa-fw fa-compass"></i><span class="text">Pesquisar</span></button>
-                                        <a class="column clear-button button" href="{{url('/producoes')}}"><i class="fa fa-fw fa-eraser"></i><span class="text">Limpar</span></a>
+                                        <input id="search-view632" class="column" type="text" name="searchbar" autocomplete="off">
+                                        <button type="submit" class="column submit-button button"><i class="fa fa-fw fa-compass"></i><span class="text">Pesquisar</span></button>
+                                        <a class="column clear-button button" href="{{url('/producoes')}}"><i class="fa fa-fw fa-eraser"></i><span class="text">Todas as Produções</span></a>
                                     </div>
                                 </div>
                             </fieldset>
