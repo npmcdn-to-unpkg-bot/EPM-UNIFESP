@@ -405,7 +405,7 @@
         active = $('.active').find('input');
         for (var i = 0; i < active.length; i++){
             temp = active[i];
-            temp = temp.val();
+            temp = $(temp).val();
             $('.grid > .'+temp).hide();
         }
         $('.grid').masonry({
