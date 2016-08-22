@@ -136,15 +136,14 @@ Route::get('/producoes', function(){
 Route::post('/producoes/pesquisar', function( Request $request){
     $searchbar = $request->searchbar;
     $papers = DB::table('papers')->where( 'name', 'like','%'.$searchbar.'$')
-//        ->orWhere('fields','like','%'.$searchbar.'$')
-//        ->orWhere('summary','like','%'.$searchbar.'$')
-//        ->orWhere('authors','like','%'.$searchbar.'$')
+        ->orWhere('fields','like','%'.$searchbar.'$')
+        ->orWhere('summary','like','%'.$searchbar.'$')
+        ->orWhere('authors','like','%'.$searchbar.'$')
         ->get();
 
-    return 'Essa é a barra de pesquisa: '.$searchbar . ' Esse é o resultado da query'.$papers;
-//    return view('Productions.producoes', [
-//        'papers' => $papers
-//    ]);
+    return view('Productions.producoes', [
+        'papers' => $papers
+    ]);
 });
 
 
