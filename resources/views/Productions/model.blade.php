@@ -386,7 +386,10 @@
 
 </script>
 <script>
+    // This is the script to control the filters
     var filter;
+    var temp;
+    var active;
 
     function hide(filter) {
         $('.grid-item').not('.'+filter).hide();
@@ -398,7 +401,13 @@
     };
 
     function show(filter) {
-        $('.'+filter).show();
+        $('.grid-item').not('.'+filter).show();
+        active = $('.active').find('input');
+        for (var i = 0; i < active.length; i++){
+            temp = active[i];
+            temp = temp.val();
+            $('.grid > .'+temp).hide();
+        }
         $('.grid').masonry({
             // options
             itemSelector: '.grid-item'
