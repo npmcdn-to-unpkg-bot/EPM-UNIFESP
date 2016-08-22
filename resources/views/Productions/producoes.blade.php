@@ -56,8 +56,8 @@
                                 </div>
                                 <div class="filter">
                                     <div class="form-field TDCS">
-                                        <input type="checkbox" value=TDCS" id="tdcs" tabindex="-1">
-                                        <label for="tdcs"><a href="#">tDCS – Estimulação transcraniana por corrente contínua</a></label>
+                                        <input type="checkbox" value="TDCS" id="tdcs" tabindex="-1">
+                                        <label for="tdcs"><a href="#">>tDCS – Estimulação transcraniana por corrente contínua</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.</p>
