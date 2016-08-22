@@ -406,14 +406,14 @@
         for (var i = 0; i < active.length; i++){
             temp = active[i];
             temp = $(temp).val();
-            $('.grid > .'+temp).hide();
+            $('.grid-item').not('.'+temp).hide();
         }
         $('.grid').masonry({
             // options
             itemSelector: '.grid-item'
             , columnWidth: 200
         });
-    };
+    }
 
     $('.filter').click(function () {
         if ($(this).hasClass('active')) {
