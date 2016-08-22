@@ -1,6 +1,6 @@
 <?php
 
-
+use Illuminate\Support\Facades\DB;
 use App\Researcher;
 use App\Paper;
 use Illuminate\Http\Request;
@@ -135,7 +135,7 @@ Route::get('/producoes', function(){
 
 Route::post('/producoes/pesquisar', function( Request $request){
     $searchbar = $request->searchbar;
-    $papers = Paper::where( 'name', 'like','%'.$searchbar.'$')
+    $papers = DB::table('papers')->where( 'name', 'like','%'.$searchbar.'$')
 //        ->orWhere('fields','like','%'.$searchbar.'$')
 //        ->orWhere('summary','like','%'.$searchbar.'$')
 //        ->orWhere('authors','like','%'.$searchbar.'$')
