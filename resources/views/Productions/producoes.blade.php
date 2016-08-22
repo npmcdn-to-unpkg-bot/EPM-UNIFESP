@@ -16,7 +16,7 @@
                         <form class="closed" action="{{url('/producoes/pesquisar')}}" method="post">
                             <fieldset data-group="keyword">
                                 <legend><h4>Palavra-chave</h4></legend>
-                                <div class="filter">
+                                <div class="">
                                     <div class="search-box force">
                                         {{ csrf_field() }}
                                         <label for="search-view632">Pesquisar</label>
