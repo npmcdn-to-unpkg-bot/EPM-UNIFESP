@@ -231,19 +231,20 @@
                 <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                     <div class="search-box force">
-                        <form method="POST" action="{{url('/pessoas/pesquisar/')}}" class="column force" role="search">
-                            {{ csrf_field() }}
+                        <form method="GET" action="#" class="column force" role="search">
+                            <input type="hidden" name="c" value="gsa">
                             <label for="search-gsa-826">Pesquisar</label>
-                            <input id="search-gsa-826" class="column" type="text" name="searchbar" value="" autocomplete="off">
+                            <input id="search-gsa-826" class="column" type="text" name="q" value="" autocomplete="off">
                             <button type="submit" class="button column"><i class="fa fa-fw fa-search"></i><span class="text">pesquisar</span></button>
                         </form>
                     </div>
                     <div class="ga-search-suggestions">
                         <h4>Pesquisas comuns</h4>
                         <ul class="ga-suggestion-set">
-                            <li><a href="about/history/index.html">Test 1</a></li>
-                            <li><a href="academics/index.html#!/bachelors">Test 2</a></li>
-                            <li><a href="academics/graduate-studies/index.html">Test 3</a></li>
+                            <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
+                            <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
+                            <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
+                            <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
                         </ul>
                     </div>
                 </div>
@@ -258,7 +259,7 @@
                                 <li class=""> <a href="{{url('/sobrenos/estrategia')}}" title="Hopkins in the Community" class="destination">Estratégia</a></li>
                             </ul>
                         </li>
-                        <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Academics section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expandir o menu Linhas de pesquisa</span></a> <a href="{{url('/linhasdepesquisa')}}" title="Linhas de pesquisa" class="destination">Linhas de pesquisa</a>
+                        <li class="parent-level open"> <a href="#" class="toggle-section" title="Expand Academics section"><i class="fa fa-minus-square-o aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expandir o menu Linhas de pesquisa</span></a> <a href="{{url('/linhasdepesquisa')}}" title="Linhas de pesquisa" class="destination">Linhas de pesquisa</a>
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
@@ -279,35 +280,32 @@
                         </li>
                         <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Admissions &amp; Aid section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Admissions &amp; Aid section</span></a> <a href="{{url('/producoes')}}" title="Produções" class="destination">Produções</a>
                             <ul class="tier-2">
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="TNS" class="destination">TNS</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="TMS" class="destination">rTMS</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="QEEG" class="destination">QEEG</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="Genética" class="destination">Genética</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
                 <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
-                    <div class="newsevents-container">
-                        <div class="collection content-loading">
-                            <h4><a href="#">Ultimo Artigo</a></h4>
-                            <div class="load-into"></div>
-                            <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                            <div class="more"><a href="#">Mais Artigos...</a></div>
-                        </div>
-                        <div class="collection content-loading">
-                            <h4><a href="#">Ultimo Artigo</a></h4>
-                            <div class="load-into"></div>
-                            <div class="loading light"> <i class="fa fa-circle-o-notch fa-spin"></i> </div>
-                            <div class="more"><a href="#">Mais Artigos...</a></div>
-                        </div>
+                    <div class="newsevents">
+                        @for($i = count($papers) -1, $limit = count($papers)-5; $i> $limit && $i > 0; $i--)
+                            <div class="collection">
+                                <h4><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->name}}</a></h4>
+
+                                <div class="load-into"></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->author}}</a></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->summary}}</a></div>
+                            </div>
+                        @endfor
                     </div>
 
                 </div>

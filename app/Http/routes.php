@@ -18,8 +18,20 @@ use Illuminate\Http\Request;
 |
 */
 
+
+
+/*
+|--------------------------------------------------------------------------
+| Home
+|--------------------------------------------------------------------------
+*/
+
 Route::get('/', function () {
-    return view('welcome');
+    $papers = Paper::orderBy('id', 'asc')->get();
+    
+    return view('welcome',  [
+        'papers' => $papers
+    ]);
 });
 
 
@@ -29,19 +41,35 @@ Route::get('/', function () {
 |--------------------------------------------------------------------------
 */
 Route::get('/sobrenos', function(){
-    return view('AboutUs.sobrenos');
+    $papers = Paper::orderBy('name', 'asc')->get();
+
+    return view('AboutUs.sobrenos',  [
+        'papers' => $papers
+    ]);
 });
 
 Route::get('/sobrenos/missao', function(){
-    return view('AboutUs.missao');
+    $papers = Paper::orderBy('name', 'asc')->get();
+
+    return view('AboutUs.missao',  [
+        'papers' => $papers
+    ]);
 });
 
 Route::get('/sobrenos/visao', function(){
-    return view('AboutUs.visao');
+    $papers = Paper::orderBy('name', 'asc')->get();
+
+    return view('AboutUs.visao', [
+    'papers' => $papers
+    ]);
 });
 
 Route::get('/sobrenos/estrategia', function(){
-    return view('AboutUs.estrategia');
+    $papers = Paper::orderBy('name', 'asc')->get();
+
+    return view('AboutUs.estrategia', [
+        'papers' => $papers
+    ]);
 });
 
 
@@ -52,49 +80,93 @@ Route::get('/sobrenos/estrategia', function(){
 |--------------------------------------------------------------------------
 */
 Route::get('/linhasdepesquisa', function(){
-    return view('Fields.linhasdepesquisa');
+    $papers = Paper::orderBy('name', 'asc')->get();
+
+    return view('Fields.linhasdepesquisa', [
+        'papers' => $papers
+    ]);
 });
     Route::get('/linhasdepesquisa/TNS', function(){
-        return view('Fields.LinhasDePesquisa.TNS');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.TNS', [
+            'papers' => $papers
+        ]);
     });
     
     Route::get('/linhasdepesquisa/rTMS', function(){
-        return view('Fields.LinhasDePesquisa.rTMS');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.rTMS', [
+            'papers' => $papers
+        ]);
     });
     
     Route::get('/linhasdepesquisa/TDCS', function(){
-        return view('Fields.LinhasDePesquisa.TDCS');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.TDCS', [
+            'papers' => $papers
+        ]);
     });
     
     Route::get('/linhasdepesquisa/Neurofeedback', function(){
-        return view('Fields.LinhasDePesquisa.Neurofeedback');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.Neurofeedback', [
+            'papers' => $papers
+        ]);
     });
     
     Route::get('/linhasdepesquisa/RemediacaoCognitiva', function(){
-        return view('Fields.LinhasDePesquisa.RemediacaoCognitiva');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.RemediacaoCognitiva', [
+            'papers' => $papers
+        ]);
     });
 
     Route::get('/linhasdepesquisa/QEEG', function(){
-        return view('Fields.LinhasDePesquisa.QEEG');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.QEEG', [
+            'papers' => $papers
+        ]);
     });
 
     Route::get('/linhasdepesquisa/EyeTracking', function(){
-        return view('Fields.LinhasDePesquisa.EyeTracking');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.EyeTracking', [
+            'papers' => $papers
+        ]);
     });
 
     
     Route::get('/linhasdepesquisa/FMRI', function(){
-        return view('Fields.LinhasDePesquisa.FMRI');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.FMRI', [
+            'papers' => $papers
+        ]);
     });
     
     
     Route::get('/linhasdepesquisa/Genetica', function(){
-        return view('Fields.LinhasDePesquisa.Genetica');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.Genetica', [
+            'papers' => $papers
+        ]);
     });
     
     
     Route::get('/linhasdepesquisa/Eletrofisiologia', function(){
-        return view('Fields.LinhasDePesquisa.Eletrofisiologia');
+        $papers = Paper::orderBy('name', 'asc')->get();
+
+        return view('Fields.LinhasDePesquisa.Eletrofisiologia', [
+            'papers' => $papers
+        ]);
     });
 
 
@@ -147,11 +219,4 @@ Route::post('/producoes/pesquisar', function( Request $request){
 //    ]);
 });
 
-
-/*
-|--------------------------------------------------------------------------
-| Publicações
-|--------------------------------------------------------------------------
-*/
-//Route::get('/publicacoes', 'PublicacoesController');
 
