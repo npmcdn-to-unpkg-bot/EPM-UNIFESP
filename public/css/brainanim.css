@@ -65,15 +65,21 @@ p{
     padding:20px 0px 0px 0px;
 }
 
+.svg_anim{
+    margin-top: 3em;
+    height: 90%;
+    width: 100%;
+}
+
 @media screen and (min-device-height: 900px ) and (min-device-width:1920px ){
     .svg_anim{
-        margin-top: 4em;
+        margin-top: 3em;
         height: 60%;
         width: 100%;
     }
 }
 
-@media screen and (max-device-height: 600px) and (max-device-width: 1280px){
+@media screen and (max-device-height: 1280px) and (max-device-width: 600px){
     .svg_anim{
         margin-top: 2.5em;
         height: 90%;
