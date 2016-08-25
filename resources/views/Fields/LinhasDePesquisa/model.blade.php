@@ -39,7 +39,7 @@
     <meta name="application-name" content="Centro de Neuromodulação EPM-UNIFESP">
     <meta name="msapplication-TileColor" content="#74AA50">
     <meta name="msapplication-TileImage" content="{{asset('/images/logo_azul.png')}}">
-    <meta name="theme-color" content="#b2d1d3">
+    <meta name="theme-color" content="#74AA50">
 
 
 
