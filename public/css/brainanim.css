@@ -71,54 +71,6 @@ p{
     width: 100%;
 }
 
-@media screen and (min-device-height: 900px ) and (min-device-width:1920px ){
-    .svg_anim{
-        margin-top: 3em;
-        height: 60%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-device-height: 1280px) and (max-device-width: 600px){
-    .svg_anim{
-        margin-top: 2.5em;
-        height: 90%;
-        width: 100%;
-    }
-}
-@media screen and (max-device-height: 1280px) and (max-device-width: 980px ){
-    .svg_anim{
-        margin-top: 2.5em;
-        height: 45%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-device-height: 1280px) and (max-device-width: 800px){
-    .svg_anim{
-        margin-top: 3.5em;
-        height: 45%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-device-height: 1024px) and (max-device-width: 768px){
-    .svg_anim{
-        margin-top: 5.6em;
-        height: 47%;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-device-height:640px) and (max-device-width: 360px) {
-    .svg_anim{
-        margin-top: 40%;
-        height: 90%;
-        width: 100%;
-    }
-}
-
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .svg_anim{
         margin-top: 35%;
@@ -127,9 +79,18 @@ p{
     }
 }
 
+@media only screen and (min-device-width :240px) and (max-device-width :320px) and (orientation : portrait) {
+    /* Styles */
+    .svg_anim{
+        margin-top: 14.3em;
+        height: 40%;
+        width: 100%;
+    }
+}
+
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-        /* Styles */     .svg_anim{         margin-top: 40%;         height: 90%;         width: 100%;     }
+    /* Styles */     .svg_anim{         margin-top: 40%;         height: 90%;         width: 100%;     }
     .svg_anim{
         margin-top: 40%;
         height: 90%;
@@ -137,7 +98,7 @@ p{
     }
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
     /* Styles */
     .svg_anim{
         margin-top: 40%;
@@ -169,7 +130,7 @@ p{
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 7em;
         height: 90%;
         width: 100%;
     }
@@ -188,7 +149,7 @@ p{
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 5em;
         height: 90%;
         width: 100%;
     }
@@ -207,7 +168,7 @@ p{
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 20em;
         height: 90%;
         width: 100%;
     }
@@ -216,7 +177,7 @@ p{
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 7.5em;
         height: 90%;
         width: 100%;
     }
@@ -226,7 +187,7 @@ p{
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 20em;
         height: 90%;
         width: 100%;
     }
@@ -235,7 +196,7 @@ p{
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 20em;
         height: 90%;
         width: 100%;
     }
@@ -245,17 +206,134 @@ p{
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
     /* Styles */
     .svg_anim {
-        margin-top: 40%;
+        margin-top: 20em;
         height: 90%;
         width: 100%;
     }
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+
+/* Kindle Fire HD*/
+@media only screen and (min-device-width :533px) and (min-device-height:853px) and (orientation : portrait) {
     /* Styles */
-    .svg_anim {
-        margin-top: 40%;
+    .svg_anim{
+        margin-top: 14em;
+        height: 50%;
+        width: 100%;
+    }
+}
+
+/* Kindle Fire*/
+@media only screen and (min-device-width :600px) and (min-device-height:800px) and (orientation : portrait) {
+    /* Styles */
+    .svg_anim{
+        margin-top: 4em;
+        height: 70%;
+        width: 100%;
+    }
+}
+
+/* Galaxy Tab */
+@media only screen and (min-device-width :600px) and (min-device-height:1024px) and (orientation : portrait) {
+    /* Styles */
+    .svg_anim{
+        margin-top: -4em;
+        height: 80%;
+        width: 100%;
+    }
+}
+
+/* Nexus 7 */
+@media only screen and (min-device-width :603px) and (min-device-height:965px) and (orientation : portrait) {
+    /* Styles */
+    .svg_anim{
+        margin-top: -3em;
+        height: 80%;
+        width: 100%;
+    }
+}
+
+/* Nexus 7 */
+@media only screen and (min-device-width :768px) and (min-device-height:1024px) and (orientation : portrait) {
+    /* Styles */
+    .svg_anim{
+        margin-top: 6em;
+        height: 50%;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-device-width: 1024px) and (min-device-height: 600px){
+    .svg_anim{
+        margin-top: 3em;
         height: 90%;
         width: 100%;
     }
 }
+
+@media screen and (min-device-width: 1024px) and (min-device-height: 768px){
+    .svg_anim{
+        margin-top: 3.5em;
+        height: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1080px) and (min-device-height: 800px){
+    .svg_anim{
+        margin-top: 2.5em;
+        height: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1366px) and (min-device-height: 768px){
+    .svg_anim{
+        margin-top: 3em;
+        height: 75%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1440px) and (min-device-height: 900px){
+    .svg_anim{
+        margin-top: 2.5em;
+        height: 67%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1680px) and (min-device-height: 1050px){
+    .svg_anim{
+        margin-top: 3em;
+        height: 55%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1920px) and (min-device-height: 1080px){
+    .svg_anim{
+        margin-top: 2.5em;
+        height: 55%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-device-width: 1920px) and (min-device-height: 2000px){
+    .svg_anim{
+        margin-top: 2.3em;
+        height: 30%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
