@@ -294,12 +294,12 @@
                 <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
                     <div class="newsevents">
-                        @for($i = count($papers) -1, $limit = count($papers)-5; $i> $limit && $i > 0; $i--)
+                        @for($i = count($papers) -1, $limit = count($papers)-5; $i>= $limit && $i >= 0; $i--)
                             <div class="collection">
-                                <h4><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->name}}</a></h4>
+                                <h4><a href="{{$papers[$i]->pdf}}">{{$papers[$i]->name}}</a></h4>
 
                                 <div class="load-into"></div>
-                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->author}}</a></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->authors}}</a></div>
                                 <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->summary}}</a></div>
                             </div>
                         @endfor

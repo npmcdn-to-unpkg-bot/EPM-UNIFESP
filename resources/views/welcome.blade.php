@@ -85,12 +85,12 @@
                     <div id="tabpanel-news-events" class="panel-newsevents tabpanel column" aria-labelledby="tab-news-events" aria-hidden="true" role="tabpanel">
                         <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Close</span></button>
                         <div class="newsevents">
-                            @for($i = count($papers) -1, $limit = count($papers)-5; $i> $limit && $i > 0; $i--)
+                            @for($i = count($papers) -1, $limit = count($papers)-5; $i>= $limit && $i >= 0; $i--)
                             <div class="collection">
-                                <h4><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->name}}</a></h4>
+                                <h4><a href="{{$papers[$i]->pdf}}">{{$papers[$i]->name}}</a></h4>
 
                                 <div class="load-into"></div>
-                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->author}}</a></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->authors}}</a></div>
                                 <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->summary}}</a></div>
                             </div>
                             @endfor
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="animação" style="margin-left: 0px; margin-top: -60.8371px; width: 100%; height: 120%; cursor: url({{asset('/images//cursor-do-centro-de-neuromodulaão-04_1.cur')}}), url({{asset('/images/theme/images/cursor-do-centro.cur')}}), auto; background-color: rgb(178, 209, 211);">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9" style="height: 90%; width: 100%;margin-top: 2.5em;">
+                            <svg class="svg_anim" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 799.9 799.9">
                                 <g id="experiment">
                                     <g id="tubeLiquid">
                                         <polyline fill="none" stroke="#FF7840" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" 458.7,399 533.6,399.2 545,367 560.3,423 578.3,356.3 616.3,436.3 615.7,354.7 663.7,402 663.3,312.3 "></polyline>
