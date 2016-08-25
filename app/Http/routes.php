@@ -176,11 +176,12 @@ Route::get('/linhasdepesquisa', function(){
 |--------------------------------------------------------------------------
 */
 Route::get('/pessoas', function(){
-
+    $papers = Paper::orderBy('name', 'asc')->get();
     $researchers = Researcher::orderBy('name','asc')->get();
 
     return view('People.pessoas', [
-        'researchers' => $researchers
+        'researchers' => $researchers,
+        'papers' => $papers
     ]);
 });
 

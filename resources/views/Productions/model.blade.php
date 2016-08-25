@@ -41,7 +41,7 @@
     <link rel="icon" href="{{asset('/images/logo_azul.png')}}">
     <meta name="apple-mobile-web-app-title" content="Centro de Neuromodulação EPM-UNIFESP">
     <meta name="application-name" content="Centro de Neuromodulação EPM-UNIFESP">
-    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileColor" content="#44693d">
     <meta name="msapplication-TileImage" content="{{asset('/images/logo_azul.png')}}">
     <meta name="theme-color" content="#b2d1d3">
 
@@ -224,7 +224,7 @@
     <div class="center force">
         <p id="aria-description-menu" class="hide">Pressione esc para fechar a caixa de diálogo.</p>
         <div role="navigation">
-            <a href="#menu" title="Open Menu" class="hamburger" role="button"> <i class="fa fa-fw fa-bars" aria-label="Open Menu"></i><span class="icon-fallback">Menu</span> </a>
+            <a href="#menu" title="Abrir o Menu" class="hamburger" role="button"> <i class="fa fa-fw fa-bars" aria-label="Abrir o Menu"></i><span class="icon-fallback">Menu</span> </a>
             <!-- <div class="french-fries"> -->
             <ul class="tablist french-fries" role="tablist" aria-describedby="aria-description-tablist">
                 <p id="aria-description-tablist" class="hide">Pressione esc para fechar a caixa de diálogo, quando aberta.</p>
@@ -257,42 +257,42 @@
                 <div id="tabpanel-menu" class="panel-menu tabpanel column" aria-labelledby="tab-menu" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                     <ul class="site-tree tier-1">
-                        <li class="parent-level"> <a href="#" class="toggle-section" title="Collapse About Us section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Fechar o menu Sobre Nós</span></a> <a href="{{url('/sobrenos')}}" title="About Us" class="destination">Sobre Nós</a>
+                        <li class="parent-level"> <a href="#" class="toggle-section" title="Abrir e Fechar o Menu"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Fechar o menu Sobre Nós</span></a> <a href="{{url('/sobrenos')}}" title="About Us" class="destination">Sobre Nós</a>
                             <ul class="tier-2">
-                                <li class=""> <a href="{{url('/sobrenos/missao')}}" title="University Leadership" class="destination">Missão</a></li>
-                                <li class=""> <a href="{{url('/sobrenos/visao')}}" title="Notable Alumni" class="destination">Visão</a></li>
-                                <li class=""> <a href="{{url('/sobrenos/estrategia')}}" title="Hopkins in the Community" class="destination">Estratégia</a></li>
+                                <li class=""> <a href="{{url('/sobrenos/missao')}}" title="Missão" class="destination">Missão</a></li>
+                                <li class=""> <a href="{{url('/sobrenos/visao')}}" title="Visão" class="destination">Visão</a></li>
+                                <li class=""> <a href="{{url('/sobrenos/estrategia')}}" title="Estratégia" class="destination">Estratégia</a></li>
                             </ul>
                         </li>
-                        <li class="parent-level open"> <a href="#" class="toggle-section" title="Expand Academics section"><i class="fa fa-minus-square-o aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expandir o menu Linhas de pesquisa</span></a> <a href="{{url('/linhasdepesquisa')}}" title="Linhas de pesquisa" class="destination">Linhas de pesquisa</a>
+                        <li class="parent-level open"> <a href="#" class="toggle-section" title="Abrir e Fechar o Menu"><i class="fa fa-minus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expandir o menu Linhas de pesquisa</span></a> <a href="{{url('/linhasdepesquisa')}}" title="Linhas de pesquisa" class="destination">Linhas de pesquisa</a>
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/linhasdepesquisa/TNS')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/rTMS')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/TDCS')}}" title="TDCS" class="destination">tDCS</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Neurofeedback')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/RemediacaoCognitiva')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/QEEG')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/EyeTracking')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/linhasdepesquisa/FMRI')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Genetica')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/linhasdepesquisa/Eletrofisiologia')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>
                         </li>
-                        <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Schools &amp; Divisions section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Schools &amp; Divisions section</span></a> <a href="{{url('/pessoas')}}" title="Pessoas" class="destination">Pessoas</a>
+                        <li class="parent-level"> <a href="#" class="toggle-section" title="Abrir e Fechar o Menu"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Schools &amp; Divisions section</span></a> <a href="{{url('/pessoas')}}" title="Pessoas" class="destination">Pessoas</a>
                             <ul class="tier-2">
-                                <li class=""><a href="{{url('/pessoas')}}" title="Pessoa 1" class="destination">Pesquisadores</a></li>
+                                <li class=""><a href="{{url('/pessoas')}}" title="Pesquisadores" class="destination">Pesquisadores</a></li>
                             </ul>
                         </li>
-                        <li class="parent-level"> <a href="#" class="toggle-section" title="Expand Admissions &amp; Aid section"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Admissions &amp; Aid section</span></a> <a href="{{url('/producoes')}}" title="Produções" class="destination">Produções</a>
+                        <li class="parent-level"> <a href="#" class="toggle-section" title="Abrir e Fechar o Menu"><i class="fa fa-plus-square-o" aria-hidden="true"></i><span class="icon-fallback">+</span><span class="visuallyhidden">Expand Admissions &amp; Aid section</span></a> <a href="{{url('/producoes')}}" title="Produções" class="destination">Produções</a>
                             <ul class="tier-2">
                                 <li class=""> <a href="{{url('/producoes')}}" title="TNS" class="destination">TNS</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="TMS" class="destination">rTMS</a> </li>
-                                <li class=""> <a href="{{url('/producoes')}}" title="TDCS" class="destination">TDCS</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="TDCS" class="destination">tDCS</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="Neurofeedbac" class="destination">Neurofeedback </a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="Remediação Cognitiva" class="destination">Remediação Cognitiva</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="QEEG" class="destination">QEEG</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="Eye Tracking" class="destination">Eye Tracking</a> </li>
-                                <li class=""> <a href="{{url('/producoes')}}" title="FMRI" class="destination">FMRI</a> </li>
+                                <li class=""> <a href="{{url('/producoes')}}" title="FMRI" class="destination">fMRI</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="Genética" class="destination">Genética</a> </li>
                                 <li class=""> <a href="{{url('/producoes')}}" title="Eletrofisiologia Periférica" class="destination">Eletrofisiologia Periférica </a> </li>
                             </ul>

@@ -37,7 +37,7 @@
     <link rel="icon" href="{{asset('/images/logo_azul.png')}}">
     <meta name="apple-mobile-web-app-title" content="Centro de Neuromodulação EPM-UNIFESP">
     <meta name="application-name" content="Centro de Neuromodulação EPM-UNIFESP">
-    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileColor" content="#74AA50">
     <meta name="msapplication-TileImage" content="{{asset('/images/logo_azul.png')}}">
     <meta name="theme-color" content="#b2d1d3">
 
