@@ -190,8 +190,11 @@ Route::post('/pessoas/pesquisar/', function( Request $request){
         ->orWhere('bio','like',  '%'.$request->searchbar.'%')
         ->get();
 
+    $papers = Paper::orderBy('name', 'asc')->get();
+
     return view('People.pessoas', [
-        'researchers' => $researchers
+        'researchers' => $researchers,
+        'papers' => $papers
     ]);
 });
 
