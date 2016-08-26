@@ -235,7 +235,8 @@
                 <div id="tabpanel-search" class="panel-search tabpanel column" aria-labelledby="tab-search" aria-hidden="true" role="tabpanel">
                     <button class="close-box-x close" aria-label="Close tab panel widget dialog"><i class="fa fa-fw fa-times" aria-hidden="true"></i><span class="icon-fallback">Fechar</span></button>
                     <div class="search-box force">
-                        <form method="GET" action="#" class="column force" role="search">
+                        <form action="{{url('/producoes/pesquisar')}}" method="POST">
+                            {{ csrf_field() }}
                             <input type="hidden" name="c" value="gsa">
                             <label for="search-gsa-826">Pesquisar</label>
                             <input id="search-gsa-826" class="column" type="text" name="q" value="" autocomplete="off">
@@ -303,11 +304,11 @@
                     <div class="newsevents">
                         @for($i = count($papers) -1, $limit = count($papers)-5; $i> $limit && $i > 0; $i--)
                             <div class="collection">
-                                <h4><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->name}}</a></h4>
+                                <h4><a href="{{$papers[$i]->pdf}}">{{$papers[$i]->name}}</a></h4>
 
                                 <div class="load-into"></div>
-                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->author}}</a></div>
-                                <div class="more"><a href="{{$papers[$i]->pdf_url}}">{{$papers[$i]->summary}}</a></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf}}">{{$papers[$i]->author}}</a></div>
+                                <div class="more"><a href="{{$papers[$i]->pdf}}">{{$papers[$i]->summary}}</a></div>
                             </div>
                         @endfor
                     </div>

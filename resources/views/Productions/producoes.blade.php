@@ -13,7 +13,7 @@
                     <p class="old-browser"><strong>For a more interactive experience, please <a href="http://browsehappy.com/">upgrade your browser</a>.</strong></p>
                     <div class="filters column force">
                         <div class="display-nav closed"><span>Filtros</span> <i class="fa fa-fw fa-chevron-down open"></i> <i class="fa fa-fw fa-times close"></i> </div>
-                        <form class="closed" action="{{url('/producoes/pesquisar')}}" method="POST">
+                        <form action="{{url('/producoes/pesquisar')}}" method="POST">
                             <fieldset data-group="keyword">
                                 <legend><h4>Palavra-chave</h4></legend>
                                 <div class="">
@@ -34,7 +34,7 @@
                                 <div class="filter">
                                     <div class="form-field TNS">
                                         <input type="checkbox" value="TNS" id="tns" tabindex="-1">
-                                        <label for="tns"><a href="#">TNS – Estimulação do nervo trigêmeo</a></label>
+                                        <label for="tns"><a href="#main-content">TNS – Estimulação do nervo trigêmeo</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A TNS envolve a estimulação elétrica da terminação do ramo V1 do trigêmeo, que fica logo acima do supraorbital. Ao contrário do que ocorre com a tDCS e rTMS que agem de maneira top-down (do córtex para dentro), através da estimulação do trigêmeo, os impulsos navegam até o tronco encefálico e então se espraiam para o tálamo e córtex.</p>
@@ -45,7 +45,7 @@
                                 <div class="filter">
                                     <div class="form-field TMS">
                                         <input type="checkbox" value="RTMS" id="rtms" tabindex="-1">
-                                        <label for="rtms"><a href="#">rTMS – Estimulação magnética transcraniana</a></label>
+                                        <label for="rtms"><a href="#main-content">rTMS – Estimulação magnética transcraniana</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A estimulação magnética transcraniana é uma técnica que envolve a indução de campos magnéticos alternantes, através de uma bobina, para estimular as células nervosas.
@@ -57,7 +57,7 @@
                                 <div class="filter">
                                     <div class="form-field TDCS">
                                         <input type="checkbox" value="TDCS" id="tdcs" tabindex="-1">
-                                        <label for="tdcs"><a href="#">tDCS – Estimulação transcraniana por corrente contínua</a></label>
+                                        <label for="tdcs"><a href="#main-content">tDCS – Estimulação transcraniana por corrente contínua</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva. Centenas de ensaios clínicos e diversas meta-análises confirmam a sua eficácia.</p>
@@ -68,7 +68,7 @@
                                 <div class="filter">
                                     <div class="form-field NEUROFEEDBACK">
                                         <input type="checkbox" value="NEUROFEEDBACK" id="neurofeedback" tabindex="-1">
-                                        <label for="neurofeedback"><a href="#">NEUROFEEDBACK</a></label>
+                                        <label for="neurofeedback"><a href="#main-content">NEUROFEEDBACK</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Neurofeedback é uma técnica de alteração de estados afetivos e melhora do desempenho cognitivo por meio da indução de mudanças de longo prazo na distribuição e comportamento dos padrões frequenciais do cérebro. Nas sessões clínicas, os clientes procuram atingir estados de funcionamento otimizados, tendo como referência aquilo que eletrodos dispostos sobre o escalpo e testa registram; na prática, controlam interfaces ‘com a força do pensamento’, o que torna as sessões bastante estimulantes para a maior.</p>
@@ -79,7 +79,7 @@
                                 <div class="filter">
                                     <div class="form-field REMEDIACAO">
                                         <input type="checkbox" value="REMEDIACAO" id="remediacao" tabindex="-1">
-                                        <label for="remediacao"><a href="#">REMEDIAÇÃO COGNITIVA</a></label>
+                                        <label for="remediacao"><a href="#main-content">REMEDIAÇÃO COGNITIVA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A terapia de remediação cognitiva (CRT) é um conjunto de técnicas de aprendizado verbal e não-verbal que visam otimizar competências conhecidas por terem papel essencial na inteligência geral e adaptabilidade individual, como tomada de decisão, memória de trabalho e atenção.</p>
@@ -90,7 +90,7 @@
                                 <div class="filter">
                                     <div class="form-field QEEG">
                                         <input type="checkbox" value="QEEG" id="qeeg" tabindex="-1">
-                                        <label for="qeeg"><a href="#"> QEEG – Eletroencefalografia quantitativa</a></label>
+                                        <label for="qeeg"><a href="#main-content"> QEEG – Eletroencefalografia quantitativa</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>A eletroencefalografia serve à realização de medidas indiretas da atividade cerebral, ao passo que sua variante quantitativa (QEEG) simplesmente denota que existe alta densidade de canais sendo registrados. Conforme aumenta a cobertura do escalpo, cresce a possibilidade de se fazer estimativas acerca da origem de fenômenos biológicos, sejam eles de interesse clínico ou cognitivo-comportamental.</p>
@@ -101,7 +101,7 @@
                                 <div class="filter">
                                     <div class="form-field EYETRACKING">
                                         <input type="checkbox" value="EYETRACKING" id="eyetracking" tabindex="-1">
-                                        <label for="eyetracking"><a href="#">EYE TRACKING</a></label>
+                                        <label for="eyetracking"><a href="#main-content">EYE TRACKING</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>O eye tracking ou rastreamento ocular é um conjunto de técnicas utilizadas para mapear deslocamentos oculares e pontos de fixação.</p>
@@ -112,7 +112,7 @@
                                 <div class="filter">
                                     <div class="form-field FMRI">
                                         <input type="checkbox" value="FMRI" id="fmri" tabindex="-1">
-                                        <label for="fmri"><a href="#">fMRI - Ressonância Magnética Funcional</a></label>
+                                        <label for="fmri"><a href="#main-content">fMRI - Ressonância Magnética Funcional</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Técnica de estimulação cerebral que utiliza corrente de baixa intensidade, ministrada por eletrodos dispostos sobre o escalpo, para induzir efeitos plásticos no cérebro, associados à melhora de uma série de sintomas psiquiátricos e neurológicos, bem como no aumento da performance cognitiva.</p>
@@ -123,7 +123,7 @@
                                 <div class="filter">
                                     <div class="form-field GENETICA">
                                         <input type="checkbox" value="GENETICA" id="genetica" tabindex="-1">
-                                        <label for="genetica"><a href="#">GENÉTICA</a></label>
+                                        <label for="genetica"><a href="#main-content">GENÉTICA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>Tal como se aplica à personalidade, habilidades e perfil afetivo, a maioria dos transtornos psiquiátricos parece estar relacionada a uma combinação de predisposições genéticas e determinações ambientais.</p>
@@ -134,7 +134,7 @@
                                 <div class="filter">
                                     <div class="form-field ELETROFISIOLOGIA">
                                         <input type="checkbox" value="ELETROFISIOLOGIA" id="eletrofisiologia" tabindex="-1">
-                                        <label for="eletrofisiologia"><a href="#">ELETROFISIOLOGIA PERIFÉRICA</a></label>
+                                        <label for="eletrofisiologia"><a href="#main-content">ELETROFISIOLOGIA PERIFÉRICA</a></label>
                                         <div class="info"> <i class="fa fa-fw fa-info-circle"></i>
                                             <div class="info-text">
                                                 <p>O sistema nervoso pode ser esquematicamente dividido em central e periférico, sendo este último constituído pelos gânglios e nervos situados fora do complexo cérebro-medula espinhal.</p>

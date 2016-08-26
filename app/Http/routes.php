@@ -186,7 +186,9 @@ Route::get('/pessoas', function(){
 });
 
 Route::post('/pessoas/pesquisar/', function( Request $request){
-    $researchers = Researcher::where( 'name', 'like', '%'.$request->searchbar.'$')->orWhere('bio','like',  '%'.$request->searchbar.'$')->get();
+    $researchers = Researcher::where( 'name', 'like', '%'.$request->searchbar.'%')
+        ->orWhere('bio','like',  '%'.$request->searchbar.'%')
+        ->get();
 
     return view('People.pessoas', [
         'researchers' => $researchers
@@ -208,16 +210,16 @@ Route::get('/producoes', function(){
 
 Route::post('/producoes/pesquisar', function( Request $request){
     $searchbar = $request->searchbar;
-    $papers = DB::table('papers')->where( 'name', 'like','%'.$searchbar.'$')
-        ->orWhere('fields','like','%'.$searchbar.'$')
-        ->orWhere('summary','like','%'.$searchbar.'$')
-        ->orWhere('authors','like','%'.$searchbar.'$')
+
+    $papers = DB::table('papers')->where('name', 'like','%'.$searchbar.'%')
+        ->orWhere('fields','like','%'.$searchbar.'%')
+        ->orWhere('summary','like','%'.$searchbar.'%')
+        ->orWhere('authors','like','%'.$searchbar.'%')
         ->get();
 
-    return $papers;
-//    return view('Productions.producoes', [
-//        'papers' => $papers
-//    ]);
+    return view('Productions.producoes', [
+        'papers' => $papers
+    ]);
 });
 
 
