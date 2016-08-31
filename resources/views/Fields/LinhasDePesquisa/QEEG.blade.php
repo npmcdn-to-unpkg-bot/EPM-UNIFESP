@@ -37,12 +37,12 @@
         </div>
         <p>Figura 1.Imagem de estudo que comparou a habilidade de identificação de áreas epileptogênicas através de Loreta com ressonância magnética pós-operativa. A conclusão foi que Loreta é eficiente na identificação destes focos [1].</p>
         <ol>
-            <li><a href="#">kdeniz, G., et al., Electrical source localization by LORETA in patients with epilepsy: Confirmation by postoperative MRI. Annals of Indian Academy of Neurology, 2016. 19(1): p. 37-43.</a></li>
+            <li><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782550/">kdeniz, G., et al., Electrical source localization by LORETA in patients with epilepsy: Confirmation by postoperative MRI. Annals of Indian Academy of Neurology, 2016. 19(1): p. 37-43.</a></li>
         </ol>
 
         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21094" data-type="teaser">
             <div class="image">
-                <a href="#" title="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"><img src="{{asset('/images/Linha_de_pesquisa/QEEG.jpg')}}" alt="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"></a>
+                <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782550/" title="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"><img src="{{asset('/images/Linha_de_pesquisa/QEEG.jpg')}}" alt="QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY"></a>
             </div>
             <h3 class="headline"><a href="#" title="Produções">QEEG - QUANTITATIVE ELECTROENCEPHALOGRAPHY</a></h3>
             <div class="summary"><p>Produções do Centro de Neuromodulação EPM-UNIFESP em <strong>QEEG</strong></p>

@@ -37,12 +37,12 @@
         </div>
         <blockquote><strong>Figura 1.</strong> Variações genéticas que afetam a resposta ao tratamento em pacientes diagnosticados com transtorno obsessivo-compulsivo [1]</blockquote>
         <ol>
-            <li><a href="#">Qin, H., et al., Whole-genome association analysis of treatment response in obsessive-compulsive disorder. Mol Psychiatry, 2016. 21(2): p. 270-276.</a></li>
+            <li><a href="http://www.nature.com/mp/journal/v21/n2/full/mp201532a.html">Qin, H., et al., Whole-genome association analysis of treatment response in obsessive-compulsive disorder. Mol Psychiatry, 2016. 21(2): p. 270-276.</a></li>
         </ol>
 
         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21094" data-type="teaser">
             <div class="image">
-                <a href="#" title="Genética"><img src="{{asset('/images/Linha_de_pesquisa/genetica_small.jpg')}}" alt="Genética"></a>
+                <a href="http://www.nature.com/mp/journal/v21/n2/full/mp201532a.html" title="Genética"><img src="{{asset('/images/Linha_de_pesquisa/genetica_small.jpg')}}" alt="Genética"></a>
             </div>
             <h3 class="headline"><a href="#" title="Produções">Genética</a></h3>
             <div class="summary"><p>Produções do Centro de Neuromodulação EPM-UNIFESP em <strong>Genética</strong></p>

@@ -37,9 +37,9 @@
         </div>
         <p><strong>Figura 1.</strong> Pontos de fixação facial no autismo [1]. Série recente de estudos confirma que o eye tracking seja uma potente ferramenta no diagnóstico do autismo [2,3]</p>
         <ol>
-            <li><a href="#">Pelphrey, K.A., et al., Visual scanning of faces in autism. J Autism Dev Disord, 2002. 32(4): p. 249-61.</a></li>
-            <li><a href="#">Hutchins, T.L. and A. Brien, Conversational topic moderates social attention in autism spectrum disorder: Talking about emotions is like driving in a snowstorm. Research in Autism Spectrum Disorders, 2016. 26: p. 99-110.</a></li>
-            <li><a href="#">Frazier, T.W., et al., Development of an Objective Autism Risk Index Using Remote Eye Tracking. Journal of the American Academy of Child & Adolescent Psychiatry. 55(4): p. 301-309.</a></li>
+            <li><a href="http://link.springer.com/article/10.1023/A:1016374617369">Pelphrey, K.A., et al., Visual scanning of faces in autism. J Autism Dev Disord, 2002. 32(4): p. 249-61.</a></li>
+            <li><a href="http://www.sciencedirect.com/science/article/pii/S1750946716300289">Hutchins, T.L. and A. Brien, Conversational topic moderates social attention in autism spectrum disorder: Talking about emotions is like driving in a snowstorm. Research in Autism Spectrum Disorders, 2016. 26: p. 99-110.</a></li>
+            <li><a href="http://www.jaacap.com/article/S0890-8567(16)00076-9/abstract">Frazier, T.W., et al., Development of an Objective Autism Risk Index Using Remote Eye Tracking. Journal of the American Academy of Child & Adolescent Psychiatry. 55(4): p. 301-309.</a></li>
         </ol>
 
         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21094" data-type="teaser">

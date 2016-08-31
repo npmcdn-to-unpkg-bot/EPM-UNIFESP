@@ -37,17 +37,16 @@
          </div>
          <p><strong>Figura 1.</strong> A rTMS possui diferentes mecanismos de ação, em neurotransmissores, aparato genético, células da glia e outros. Conforme ilustrado [1], a relação entre pulsos eletromagnéticos e corrente elétrica é parte essencial do processo de funcionamento e deve ser compreendida à luz de teorias de sistemas dinâmicos. Atualmente, nosso time conta com professores-pesquisadores em matemática computacional, especializados em sistemas dinâmicos.</p>
          <ol>
-            <li><a href="#">Chervyakov, A.V., et al., Possible Mechanisms Underlying the Therapeutic Effects of Transcranial Magnetic Stimulation. Frontiers in Human Neuroscience, 2015. 9(303).</a></li>
+            <li><a href="http://journal.frontiersin.org/article/10.3389/fnhum.2015.00303/full">Chervyakov, A.V., et al., Possible Mechanisms Underlying the Therapeutic Effects of Transcranial Magnetic Stimulation. Frontiers in Human Neuroscience, 2015. 9(303).</a></li>
          </ol>
 
                         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21094" data-type="teaser">
                             <div class="image">
-                                <a href="#" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
+                                <a href="http://journal.frontiersin.org/article/10.3389/fnhum.2015.00303/full" title="rTMS - Transcranial magnetic stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TMS.jpg')}}" alt="rTMS - Transcranial magnetic stimulation"></a>
                             </div>
                             <h3 class="headline"><a href="#" title="Produções">rTMS - Transcranial magnetic stimulation</a></h3>
                             <div class="summary"><p>Produções do Centro de Neuromodulação EPM-UNIFESP em <strong>rTMS - Transcranial magnetic stimulation</strong></p>
                             </div>
-
                         </div>
      </div>
 @endsection

@@ -36,8 +36,8 @@
         </div>
         <p><strong>Figura 1.</strong> Conforme ilustrado a remediação cognitiva funciona particularmente bem quando associada a tratamentos farmacológicos, na esquizofrenia.</p>
         <ol>
-            <li><a href="#">Wykes, T., et al., A Meta-Analysis of Cognitive Remediation for Schizophrenia: Methodology and Effect Sizes. American Journal of Psychiatry, 2011. 168(5): p. 472-485.</a></li>
-            <li><a href="#">Acheson, D., E. Twamley, and J. Young, Reward learning as a potential target for pharmacological augmentation of cognitive remediation for schizophrenia: a roadmap for preclinical development. Frontiers in Neuroscience, 2013. 7(103).
+            <li><a href="http://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2010.10060855">Wykes, T., et al., A Meta-Analysis of Cognitive Remediation for Schizophrenia: Methodology and Effect Sizes. American Journal of Psychiatry, 2011. 168(5): p. 472-485.</a></li>
+            <li><a href="http://journal.frontiersin.org/article/10.3389/fnins.2013.00103/full">Acheson, D., E. Twamley, and J. Young, Reward learning as a potential target for pharmacological augmentation of cognitive remediation for schizophrenia: a roadmap for preclinical development. Frontiers in Neuroscience, 2013. 7(103).
                 </a></li>
         </ol>
 
