@@ -37,12 +37,12 @@
         </div>
         <p><strong>Figura 1.</strong> Conforme ilustrado [1] , a estimulação anódica (corrente de sinal negativo) leva a um aumento transitório na disponibilidade de cálcio no intracelular, com fosforilação do ciclo CREBS e acetilação do BDNF (especialmente de áreas promotoras), assim promovendo plasticidade sináptica no hipocampo e ganhos de memória e inteligência geral, como os que nosso time vem observando com idosos e peak performers.</p>
         <ol>
-            <li><a href="#">Podda, M.V., et al., Anodal transcranial direct current stimulation boosts synaptic plasticity and memory in mice via epigenetic regulation of Bdnf expression. Scientific Reports, 2016. 6: p. 22180.</a></li>
+            <li><a href="http://www.nature.com/articles/srep22180">Podda, M.V., et al., Anodal transcranial direct current stimulation boosts synaptic plasticity and memory in mice via epigenetic regulation of Bdnf expression. Scientific Reports, 2016. 6: p. 22180.</a></li>
         </ol>
 
         <div class="supporting-content-item teaser type-teaser force has-image js-transform" data-id="21094" data-type="teaser">
             <div class="image">
-                <a href="#" title="TDCS - Transcranial direct current stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
+                <a href="http://www.nature.com/articles/srep22180" title="TDCS - Transcranial direct current stimulation"><img src="{{asset('/images/Linha_de_pesquisa/TDCS.jpg')}}" alt="TDCS - Transcranial direct current stimulation"></a>
             </div>
             <h3 class="headline"><a href="#" title="Produções">TDCS - Transcranial direct current stimulation</a></h3>
             <div class="summary"><p>Produções do Centro de Neuromodulação EPM-UNIFESP em <strong>TDCS</strong></p>
